@@ -20,192 +20,148 @@
     </item>
     
     <item>
-      <title>Getting started with the Academic framework for Hugo</title>
+      <title>Mangroves</title>
       <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Jul 2017 12:00:00 +0000</pubDate>
       
       <guid>/post/getting-started/</guid>
       <description>
 
-&lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
+&lt;h3 id=&#34;what-are-they&#34;&gt;What are they?&lt;/h3&gt;
 
-&lt;p&gt;Key features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
-&lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
-&lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
-&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
-&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
-&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;Easy to customize&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/#installing-hugo&#34; target=&#34;_blank&#34;&gt;Install Hugo&lt;/a&gt; and create a new website by typing the following commands in your &lt;em&gt;Terminal&lt;/em&gt; or &lt;em&gt;Command Prompt&lt;/em&gt; app:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new site my_website
-cd my_website
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Install Academic with &lt;a href=&#34;https://help.github.com/articles/set-up-git/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/gcushen/hugo-academic.git themes/academic
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or alternatively, &lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;download Academic&lt;/a&gt; and extract it into a &lt;code&gt;themes/academic&lt;/code&gt; folder within your Hugo website.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If you are creating a new website, copy the contents of the &lt;code&gt;exampleSite&lt;/code&gt; folder to your website root folder, overwriting existing files if necessary. The &lt;code&gt;exampleSite&lt;/code&gt; folder contains an example config file and content to help you get started.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cp -av themes/academic/exampleSite/* .
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Start the Hugo server from your website root folder:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server --watch
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now you can go to &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website should appear.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Customize your website - refer to the &lt;em&gt;Getting Started&lt;/em&gt; section below&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt;. Or alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as your university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
-
-&lt;p&gt;Assuming you created a new website with the example content following the installation steps above, this section explores just a few more steps in order to customize it.&lt;/p&gt;
-
-&lt;h3 id=&#34;core-parameters&#34;&gt;Core parameters&lt;/h3&gt;
-
-&lt;p&gt;The core parameters for the website can be edited in the &lt;code&gt;config.toml&lt;/code&gt; configuration file:&lt;/p&gt;
+&lt;p&gt;Mangroves are trees and shrubs that live in salty water.  Not many trees can do this, which is readily apparent in some areas of coastal Louisiana, where saltwater intrusion has killed plants that aren&amp;rsquo;t well-equipped to live in such a hostile environment.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Set &lt;code&gt;baseurl&lt;/code&gt; to your website URL (we recommend &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;GitHub Pages&lt;/a&gt; for free hosting)&lt;/li&gt;
-&lt;li&gt;Set &lt;code&gt;title&lt;/code&gt; to your desired website title such as your name&lt;/li&gt;
-&lt;li&gt;The example Disqus commenting variable should be cleared (e.g. &lt;code&gt;disqusShortname = &amp;quot;&amp;quot;&lt;/code&gt;) or set to your own &lt;a href=&#34;https://disqus.com/&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; shortname to enable commenting&lt;/li&gt;
-&lt;li&gt;Edit your details under &lt;code&gt;[params]&lt;/code&gt;; these will be displayed mainly in the homepage &lt;em&gt;about&lt;/em&gt; and &lt;em&gt;contact&lt;/em&gt; widgets (if used). To disable a contact field, simply clear the value to &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Place a square cropped portrait photo named &lt;code&gt;portrait.jpg&lt;/code&gt; into the &lt;code&gt;static/img/&lt;/code&gt; folder, overwriting any defaults. Alternatively, you can edit the &lt;code&gt;avatar&lt;/code&gt; filepath to point to a different image name or clear the value to disable the avatar feature.&lt;/li&gt;
-&lt;li&gt;To enable LaTeX math for your site, set &lt;code&gt;math = true&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Social/academic networking links are defined as multiples of &lt;code&gt;[[params.social]]&lt;/code&gt;. They can be created or deleted as necessary.&lt;/li&gt;
+&lt;li&gt;dead tree, marsh, Louisiana &lt;img src=&#34;/img/screenshot.png&#34; alt=&#34;alternative text for search engines&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;introduce-yourself&#34;&gt;Introduce yourself&lt;/h3&gt;
+&lt;p&gt;When people imagine mangroves, they usually are thinking of red mangroves.  These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are.  Prop roots help provide stability to red mangroves and supply oxygen to underground roots.&lt;/p&gt;
 
-&lt;p&gt;Edit your biography in the &lt;em&gt;about&lt;/em&gt; widget &lt;code&gt;content/home/about.md&lt;/code&gt; that you copied across from the &lt;code&gt;themes/academic/exampleSite/&lt;/code&gt; folder. The research interests and qualifications are stored as &lt;code&gt;interests&lt;/code&gt; and &lt;code&gt;education&lt;/code&gt; variables. The academic qualifications are defined as multiples of &lt;code&gt;[[education.courses]]&lt;/code&gt; and can be created or deleted as necessary. It&amp;rsquo;s possible to completely hide the interests and education lists by deleting their respective variables.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/redmangroves.jpg&#34; alt=&#34;Red Mangroves&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
+&lt;p&gt;Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas.  These are black mangroves, white mangroves, and buttonwood.&lt;/p&gt;
 
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+&lt;p&gt;Black mangroves live in areas higher above sea level than red mangroves.  They have horizontal roots with projections called pneumatophores and their roots are exposed to air when tides are out.  These mangroves are the type showing up in some of the northern Gulf states.&lt;/p&gt;
 
-&lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/blackmangroves.jpg&#34; alt=&#34;Black Mangroves&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+&lt;p&gt;White mangroves and buttonwood live in more upland areas than either the black or red mangroves.  They are adapted to tolerate salty soil, but are rarely exposed to submersion in water, because of this, they do not have aerial roots like the other two species.  In general, they look very similar to a shrub you might have in your yard.&lt;/p&gt;
 
-&lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/whitemangroves.png&#34; alt=&#34;White Mangroves&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;where-are-they&#34;&gt;Where are they?&lt;/h3&gt;
 
-&lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
+&lt;p&gt;Mangroves live at the transition from sea to land, and are an integrall component of estuarine ecosystems, but if you live in Alabama you probably haven&amp;rsquo;t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys).  Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states.  However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They&amp;rsquo;ve also started popping up on the Mississippi Barrier islands (DISL paper), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (Sherrod and McMillan 1985; pickens and Hester 2010; Cavanaugh et al. 2014[from DISL paper]).&lt;/p&gt;
 
-&lt;p&gt;Continue reading below for advanced customization tips and instructions for keeping the framework up-to-date with any improvements that become available.&lt;/p&gt;
+&lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
 
-&lt;h2 id=&#34;advanced-customization&#34;&gt;Advanced customization&lt;/h2&gt;
+&lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
 
-&lt;p&gt;It is possible to carry out many customizations without touching any files in &lt;code&gt;themes/academic&lt;/code&gt;, making it easier to upgrade the framework in the future.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MAP&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&#34;navigation-menu&#34;&gt;Navigation menu&lt;/h3&gt;
+&lt;h3 id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystems-heading&#34;&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
 
-&lt;p&gt;The &lt;code&gt;[[menu.main]]&lt;/code&gt; entries towards the bottom of &lt;code&gt;config.toml&lt;/code&gt; define the navigation links at the top of the website. They can be added or removed as desired.&lt;/p&gt;
+&lt;p&gt;The first, and most obvious, role of mangroves in fisheries ecosystems are as nursery areas.  Many coral reef associated fish, and some species managed by the Gulf of Mexico Fishery Management Council, start their lives in the mangroves.  The prop roots of red mangroves provide protection and feeding habitat for goliath grouper, red grouper, gag, cobia, gray snapper, red drum, and king and Spanish mackerel, to name a few.&lt;/p&gt;
 
-&lt;p&gt;To create a dropdown sub-menu, add &lt;code&gt;identifier = &amp;quot;something&amp;quot;&lt;/code&gt; to the parent item and &lt;code&gt;parent = &amp;quot;something&amp;quot;&lt;/code&gt; to the child item.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fish in mangroves pic &lt;img src=&#34;/img/screenshot.png&#34; alt=&#34;alternative text for search engines&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&#34;website-icon&#34;&gt;Website icon&lt;/h3&gt;
+&lt;p&gt;Another function of mangroves, and most estuarine vegetation, is in carbon sequestration, which is just a fancy way of saying that mangroves remove CO2 from the atmosphere and store it in their soil. Maybe you can see where this is going, but less CO2 in the atmosphere means less CO2 available to contribute to ocean acidification and unless you&amp;rsquo;ve been living under a rock, you know that ocean acidification is a large contributor to coral bleaching (Anthony et al. 2008; O. Hoegh-Guldberg et al. 2007; many others). Unfortunately, the removal or deforestation of mangroves can release that CO2 right back into the atmosphere.&lt;/p&gt;
 
-&lt;p&gt;Save your main icon and mobile icon as square PNG images named &lt;code&gt;icon.png&lt;/code&gt; and &lt;code&gt;apple-touch-icon.png&lt;/code&gt;, respectively. Place them in your root &lt;code&gt;static/img/&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;Another interesting and relatively recent (2014) discovery is that mangrove habitats may provide some coral species refuge in an increasingly hostile ocean environment. In Hurricane Hole, St. John, USVI, researchers surveyed coral communities growning near mangrove habitats, and compared the prevalence of bleaching in corals that were shaded by mangroves to those that were not.  &lt;strong&gt;Colpophyllia natans&lt;/strong&gt; and &lt;strong&gt;Diploria labyrinthiformis&lt;/strong&gt; colonies were the most abundant reef building corals in Hurricane Hole and these were doing well despite declines in abundance on St. John reefs.  None of the shaded colonies of &lt;strong&gt;C. natans&lt;/strong&gt; were bleached, compared to 10.5% of unshaded colonies, and 34.2% of *D. labyrinthiformis** shaded colonies were bleached, compared to 66.1% of unshaded colonies (Yates et al. 2014).&lt;/p&gt;
 
-&lt;h3 id=&#34;theme-color-css&#34;&gt;Theme color (CSS)&lt;/h3&gt;
+&lt;p&gt;Not only do the mangroves provide shade, which reduces coral exposure to photosynthetically active radiation, but also buffer declines in water pH (Yates et al. 2014).&lt;/p&gt;
 
-&lt;p&gt;You can link custom CSS assets (relative to your root &lt;code&gt;static/css&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_css = [&amp;quot;custom.css&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
 
-&lt;p&gt;For example, lets make a green theme. First, define &lt;code&gt;custom_css = [&amp;quot;green.css&amp;quot;]&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. Then we can download the example &lt;a href=&#34;https://gist.github.com/gcushen/d5525a4506b9ccf83f2bce592a895495&#34; target=&#34;_blank&#34;&gt;green theme&lt;/a&gt; and save it as &lt;code&gt;static/css/green.css&lt;/code&gt;, relative to your website root (i.e. &lt;strong&gt;not&lt;/strong&gt; in the &lt;code&gt;themes&lt;/code&gt; directory).&lt;/p&gt;
+&lt;h3 id=&#34;threats-to-mangroves&#34;&gt;Threats to mangroves&lt;/h3&gt;
 
-&lt;h3 id=&#34;analytics&#34;&gt;Analytics&lt;/h3&gt;
+&lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronouned. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforemetioned coastal development are all threats facing mangroves (Duke and Kruczynski 1992; GMFMC 2004).&lt;/p&gt;
 
-&lt;p&gt;To enable &lt;a href=&#34;http://www.google.com/analytics&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, add your tracking code in &lt;code&gt;config.toml&lt;/code&gt; similarly to &lt;code&gt;googleAnalytics = &amp;quot;UA-12345678-9&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil by coating their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (EPA[Herbicide Toxicity in Mangroves]).&lt;/p&gt;
 
-&lt;h3 id=&#34;third-party-and-local-scripts-js&#34;&gt;Third party and local scripts (JS)&lt;/h3&gt;
+&lt;p&gt;Climate Change?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mangroves</title>
+      <link>/post/mangroves/</link>
+      <pubDate>Fri, 07 Jul 2017 12:00:00 +0000</pubDate>
+      
+      <guid>/post/mangroves/</guid>
+      <description>
 
-&lt;p&gt;To add a third party script, create a file named &lt;code&gt;head_custom.html&lt;/code&gt; in a &lt;code&gt;layouts/partials/&lt;/code&gt; folder at the root of your website (not in the &lt;code&gt;themes&lt;/code&gt; folder). Any HTML code added to this file will be included within your website&amp;rsquo;s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. Therefore, it&amp;rsquo;s suitable for adding custom metadata or third party scripts specified with the &lt;em&gt;async&lt;/em&gt; attribute.&lt;/p&gt;
+&lt;h3 id=&#34;what-are-they&#34;&gt;What are they?&lt;/h3&gt;
 
-&lt;p&gt;Whereas for your own local scripts, you can link your local JS assets (relative to your root &lt;code&gt;static/js&lt;/code&gt;) from your &lt;code&gt;config.toml&lt;/code&gt; using &lt;code&gt;custom_js  = [&amp;quot;custom.js&amp;quot;]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Mangroves are trees and shrubs that live in salty water.  Not many trees can do this, which is readily apparent in some areas of coastal Louisiana, where saltwater intrusion has killed plants that aren&amp;rsquo;t well-equipped to live in such a hostile environment.&lt;/p&gt;
 
-&lt;h3 id=&#34;language-and-translation&#34;&gt;Language and translation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;dead tree, marsh, Louisiana&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;The interface text (e.g. buttons) is stored in language files which are collected from Academic&amp;rsquo;s &lt;code&gt;themes/academic/i18n/&lt;/code&gt; folder, as well as an &lt;code&gt;i18n/&lt;/code&gt; folder at the root of your project.&lt;/p&gt;
+&lt;p&gt;When people imagine mangroves, they usually are thinking of red mangroves.  These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are.  Prop roots help provide stability to red mangroves and supply oxygen to underground roots.&lt;/p&gt;
 
-&lt;p&gt;To edit the interface text, copy &lt;code&gt;themes/academic/i18n/en.yaml&lt;/code&gt; to &lt;code&gt;i18n/en.yaml&lt;/code&gt; (relative to the root of your website). Open the new file and make any desired changes to the text appearing after &lt;code&gt;translation:&lt;/code&gt;. Note that the language files are formatted in YAML syntax.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/redmangroves.jpg&#34; alt=&#34;Red Mangroves&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To translate the interface text to another language, follow the above instructions, but name the new file in the form &lt;code&gt;i18n/X.yaml&lt;/code&gt; where &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then follow the brief instructions in the &lt;em&gt;Language&lt;/em&gt; section at the bottom of your &lt;code&gt;config.toml&lt;/code&gt;. To change the default language used by Academic, set &lt;code&gt;defaultContentLanguage&lt;/code&gt; to the desired language identifier in your configuration file.&lt;/p&gt;
+&lt;p&gt;Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas.  These are black mangroves, white mangroves, and buttonwood.&lt;/p&gt;
 
-&lt;p&gt;To translate the navigation bar, you can edit the default &lt;code&gt;[[menu.main]]&lt;/code&gt; instances in &lt;code&gt;config.toml&lt;/code&gt;. However, for a multilingual site, you will need to duplicate all of the &lt;code&gt;[[menu.main]]&lt;/code&gt; instances and rename the new instances from &lt;code&gt;[[menu.main]]&lt;/code&gt; to &lt;code&gt;[[languages.X.menu.main]]&lt;/code&gt;, where &lt;code&gt;X&lt;/code&gt; is the language identifier (e.g. &lt;code&gt;[[languages.zh.menu.main]]&lt;/code&gt; for Simplified Chinese). Thus, the navigation bar can be displayed in multiple languages.&lt;/p&gt;
+&lt;p&gt;Black mangroves live in areas higher above sea level than red mangroves.  They have horizontal roots with projections called pneumatophores and their roots are exposed to air when tides are out.  These mangroves are the type showing up in some of the northern Gulf states.&lt;/p&gt;
 
-&lt;p&gt;To translate a content file in your &lt;code&gt;content/&lt;/code&gt; folder into another language, copy the file to &lt;code&gt;filename.X.md&lt;/code&gt; where &lt;code&gt;filename&lt;/code&gt; is your existing filename and &lt;code&gt;X&lt;/code&gt; is the appropriate &lt;a href=&#34;http://www.w3schools.com/tags/ref_language_codes.asp&#34; target=&#34;_blank&#34;&gt;ISO/RFC5646 language identifier&lt;/a&gt; for the translation. Then translate the content in the new file to the specified language.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/blackmangroves.jpg&#34; alt=&#34;Black Mangroves&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;For further details on Hugo&amp;rsquo;s internationalization and multilingual features, refer to the &lt;a href=&#34;https://gohugo.io/content/multilingual/&#34; target=&#34;_blank&#34;&gt;associated Hugo documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;White mangroves and buttonwood live in more upland areas than either the black or red mangroves.  They are adapted to tolerate salty soil, but are rarely exposed to submersion in water, because of this, they do not have aerial roots like the other two species.  In general, they look very similar to a shrub you might have in your yard.&lt;/p&gt;
 
-&lt;h3 id=&#34;permalinks&#34;&gt;Permalinks&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/whitemangroves.png&#34; alt=&#34;White Mangroves&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Permalinks&lt;/em&gt;, or &lt;em&gt;permanent links&lt;/em&gt;, are URLs to individual pages and posts on your website. They are permanent web addresses which can be used to link to your content. Using Hugo&amp;rsquo;s &lt;em&gt;permalinks&lt;/em&gt; option these can be easily customized. For example, the blog post URL can be changed to the form &lt;em&gt;yourURL/2016/05/01/my-post-slug&lt;/em&gt; by adding the following near the top of your &lt;code&gt;config.toml&lt;/code&gt; (before &lt;code&gt;[params]&lt;/code&gt; settings):&lt;/p&gt;
+&lt;h3 id=&#34;where-are-they&#34;&gt;Where are they?&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;[permalinks]
-    post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Mangroves live at the transition from sea to land, and are an integrall component of estuarine ecosystems, but if you live in Alabama you probably haven&amp;rsquo;t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys).  Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states.  However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They&amp;rsquo;ve also started popping up on the Mississippi Barrier islands (DISL paper), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (Sherrod and McMillan 1985; pickens and Hester 2010; Cavanaugh et al. 2014[from DISL paper]).&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code&gt;:slug&lt;/code&gt; defaults to the filename of the post, excluding the file extension. However, slug may be overridden on a per post basis if desired, simply by setting &lt;code&gt;slug = &amp;quot;my-short-post-title&amp;quot;&lt;/code&gt; in your post preamble.&lt;/p&gt;
+&lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
 
-&lt;h2 id=&#34;upgrading&#34;&gt;Upgrading&lt;/h2&gt;
+&lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
 
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; and monitor the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/commits/master&#34; target=&#34;_blank&#34;&gt;commits&lt;/a&gt; for updates.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MAP&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Before upgrading the framework, it is recommended to make a backup of your entire website directory, or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory. You can also read about the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/releases&#34; target=&#34;_blank&#34;&gt;most recent milestones&lt;/a&gt; (but this doesn&amp;rsquo;t necessarily reflect the latest &lt;em&gt;master&lt;/em&gt; release).&lt;/p&gt;
+&lt;h3 id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystems-heading&#34;&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
 
-&lt;p&gt;Before upgrading for the first time, the remote &lt;em&gt;origin&lt;/em&gt; repository should be renamed to &lt;em&gt;upstream&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;The first, and most obvious, role of mangroves in fisheries ecosystems are as nursery areas.  Many coral reef associated fish, and some species managed by the Gulf of Mexico Fishery Management Council, start their lives in the mangroves.  The prop roots of red mangroves provide protection and feeding habitat for goliath grouper, red grouper, gag, cobia, gray snapper, red drum, and king and Spanish mackerel, to name a few.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ cd themes/academic
-$ git remote rename origin upstream
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;fish in mangroves pic&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;To list available updates:&lt;/p&gt;
+&lt;p&gt;Another function of mangroves, and most estuarine vegetation, is in carbon sequestration, which is just a fancy way of saying that mangroves remove CO2 from the atmosphere and store it in their soil. Maybe you can see where this is going, but less CO2 in the atmosphere means less CO2 available to contribute to ocean acidification and unless you&amp;rsquo;ve been living under a rock, you know that ocean acidification is a large contributor to coral bleaching (Anthony et al. 2008; O. Hoegh-Guldberg et al. 2007; many others). Unfortunately, the removal or deforestation of mangroves can release that CO2 right back into the atmosphere.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ cd themes/academic
-$ git fetch upstream
-$ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Another interesting and relatively recent (2014) discovery is that mangrove habitats may provide some coral species refuge in an increasingly hostile ocean environment. In Hurricane Hole, St. John, USVI, researchers surveyed coral communities growning near mangrove habitats, and compared the prevalence of bleaching in corals that were shaded by mangroves to those that were not.  &lt;strong&gt;Colpophyllia natans&lt;/strong&gt; and &lt;strong&gt;Diploria labyrinthiformis&lt;/strong&gt; colonies were the most abundant reef building corals in Hurricane Hole and these were doing well despite declines in abundance on St. John reefs.  None of the shaded colonies of &lt;strong&gt;C. natans&lt;/strong&gt; were bleached, compared to 10.5% of unshaded colonies, and 34.2% of *D. labyrinthiformis** shaded colonies were bleached, compared to 66.1% of unshaded colonies (Yates et al. 2014).&lt;/p&gt;
 
-&lt;p&gt;Then, upgrade by running:&lt;/p&gt;
+&lt;p&gt;Not only do the mangroves provide shade, which reduces coral exposure to photosynthetically active radiation, but also buffer declines in water pH (Yates et al. 2014).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ git pull upstream
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
 
-&lt;p&gt;If you have modified files in &lt;code&gt;themes/academic&lt;/code&gt;, git will attempt to auto-merge changes. If conflicts are reported, you will need to manually edit the files with conflicts and add them back (&lt;code&gt;git add &amp;lt;filename&amp;gt;&lt;/code&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;threats-to-mangroves&#34;&gt;Threats to mangroves&lt;/h3&gt;
 
-&lt;p&gt;If there are any issues after upgrading, you may wish to compare your site with the latest &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;example site&lt;/a&gt; to check if any settings changed.&lt;/p&gt;
+&lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronouned. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforemetioned coastal development are all threats facing mangroves (Duke and Kruczynski 1992; GMFMC 2004).&lt;/p&gt;
 
-&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
+&lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil by coating their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (EPA[Herbicide Toxicity in Mangroves]).&lt;/p&gt;
 
-&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
-
-&lt;p&gt;For general questions about Hugo, there is a &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;Copyright 2016 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;p&gt;Climate Change?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coming Soon.</title>
+      <link>/publication/coming-soon/</link>
+      <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/coming-soon/</guid>
+      <description>&lt;p&gt;Publications written by Gulf Council staff pertaining to coral, habitat, data visualization, or spatial management will be shared here.&lt;/p&gt;
 </description>
     </item>
     
@@ -775,49 +731,56 @@ Here&#39;s some important information...
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
+      <title>Mangroves</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+      <description>&lt;div id=&#34;what-are-they&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;What are they?&lt;/h3&gt;
+&lt;p&gt;Mangroves are trees and shrubs that live in salty water. Not many trees can do this, which is readily apparent in some areas of coastal Louisiana, where saltwater intrusion has killed plants that aren’t well-equipped to live in such a hostile environment.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dead tree, marsh, Louisiana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When people imagine mangroves, they usually are thinking of red mangroves. These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are. Prop roots help provide stability to red mangroves and supply oxygen to underground roots.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;red mangrove pic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas. These are black mangroves, white mangroves, and buttonwood.&lt;/p&gt;
+&lt;p&gt;Black mangroves live in areas higher above sea level than red mangroves. They have horizontal roots with projections called pneumatophores and their roots are exposed to air when tides are out. These mangroves are the type showing up in some of the northern Gulf states.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;black mangrove pic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;White mangroves and buttonwood live in more upland areas than either the black or red mangroves. They are adapted to tolerate salty soil, but are rarely exposed to submersion in water, because of this, they do not have aerial roots like the other two species. In general, they look very similar to a shrub you might have in your yard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;white and buttonwood pic&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
+&lt;div id=&#34;where-are-they&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Where are they?&lt;/h3&gt;
+&lt;p&gt;Mangroves live at the transition from sea to land, and are an integrall component of estuarine ecosystems, but if you live in Alabama you probably haven’t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys). Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states. However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They’ve also started popping up on the Mississippi Barrier islands (DISL paper), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (Sherrod and McMillan 1985; pickens and Hester 2010; Cavanaugh et al. 2014[from DISL paper]).&lt;/p&gt;
+&lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
+&lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MAP&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
+&lt;div id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystemsheading&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
+&lt;p&gt;The first, and most obvious, role of mangroves in fisheries ecosystems are as nursery areas. Many coral reef associated fish, and some species managed by the Gulf of Mexico Fishery Management Council, start their lives in the mangroves. The prop roots of red mangroves provide protection and feeding habitat for goliath grouper, red grouper, gag, cobia, gray snapper, red drum, and king and Spanish mackerel, to name a few.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fish in mangroves pic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another function of mangroves, and most estuarine vegetation, is in carbon sequestration, which is just a fancy way of saying that mangroves remove CO2 from the atmosphere and store it in their soil. Maybe you can see where this is going, but less CO2 in the atmosphere means less CO2 available to contribute to ocean acidification and unless you’ve been living under a rock, you know that ocean acidification is a large contributor to coral bleaching (Anthony et al. 2008; O. Hoegh-Guldberg et al. 2007; many others). Unfortunately, the removal or deforestation of mangroves can release that CO2 right back into the atmosphere.&lt;/p&gt;
+&lt;p&gt;Another interesting and relatively recent (2014) discovery is that mangrove habitats may provide some coral species refuge in an increasingly hostile ocean environment. In Hurricane Hole, St. John, USVI, researchers surveyed coral communities growning near mangrove habitats, and compared the prevalence of bleaching in corals that were shaded by mangroves to those that were not. &lt;strong&gt;Colpophyllia natans&lt;/strong&gt; and &lt;strong&gt;Diploria labyrinthiformis&lt;/strong&gt; colonies were the most abundant reef building corals in Hurricane Hole and these were doing well despite declines in abundance on St. John reefs. None of the shaded colonies of &lt;strong&gt;C. natans&lt;/strong&gt; were bleached, compared to 10.5% of unshaded colonies, and 34.2% of *D. labyrinthiformis** shaded colonies were bleached, compared to 66.1% of unshaded colonies (Yates et al. 2014).&lt;/p&gt;
+&lt;p&gt;Not only do the mangroves provide shade, which reduces coral exposure to photosynthetically active radiation, but also buffer declines in water pH (Yates et al. 2014).&lt;/p&gt;
+&lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;threats-to-mangroves&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Threats to mangroves&lt;/h3&gt;
+&lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronouned. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforemetioned coastal development are all threats facing mangroves (Duke and Kruczynski 1992; GMFMC 2004).&lt;/p&gt;
+&lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil by coating their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (EPA[Herbicide Toxicity in Mangroves]).&lt;/p&gt;
+&lt;p&gt;Climate Change?&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -863,16 +826,6 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
 
 &lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Coming Soon.</title>
-      <link>/publication/coming-soon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/coming-soon/</guid>
-      <description>&lt;p&gt;Publications written by Gulf Council staff pertaining to coral, habitat, data visualization, or spatial management will be shared here.&lt;/p&gt;
 </description>
     </item>
     

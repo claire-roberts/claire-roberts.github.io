@@ -21,9 +21,27 @@
     </item>
     
     <item>
+      <title>Coral</title>
+      <link>/tags/coral/</link>
+      <pubDate>Fri, 07 Jul 2017 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/coral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecosystem Linkages</title>
+      <link>/tags/ecosystem-linkages/</link>
+      <pubDate>Fri, 07 Jul 2017 12:00:00 +0000</pubDate>
+      
+      <guid>/tags/ecosystem-linkages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>/tags/hugo/</link>
-      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
       <guid>/tags/hugo/</guid>
       <description></description>
@@ -39,29 +57,11 @@
     </item>
     
     <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Mangroves</title>
+      <link>/tags/mangroves/</link>
+      <pubDate>Fri, 07 Jul 2017 12:00:00 +0000</pubDate>
       
-      <guid>/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/regression/</guid>
+      <guid>/tags/mangroves/</guid>
       <description></description>
     </item>
     
