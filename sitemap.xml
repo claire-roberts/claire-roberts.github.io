@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/talk/example-talk/</loc>
+      <lastmod>2017-08-24T13:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/coming-soon/</loc>
       <lastmod>2017-07-07T00:00:00+00:00</lastmod>
     </url>
@@ -15,15 +24,6 @@
     <url>
     
       <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
