@@ -48,7 +48,7 @@
 
 &lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
 
-&lt;div&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/E-ONNjFoOx0&#34; frameborder=&#34;0&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-b190ac717c5a79a1c030&#34;&gt;{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]}],&#34;setView&#34;:[[25.15,-89.87],6,[]]},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
 
 &lt;h3 id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystems-heading&#34;&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
 
