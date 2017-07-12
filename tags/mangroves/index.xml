@@ -48,7 +48,12 @@
 
 &lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
 
-&lt;iframe  title=&#34;YouTube video player&#34; width=&#34;480&#34; height=&#34;390&#34; src=&#34;http://portal.gulfcouncil.org/coralhapc.html&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/img/ALMACO.JACKland.html&#34;  /&gt;
+    &lt;figcaption&gt;
+        &lt;h4&gt;Steve Francia&lt;/h4&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h3 id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystems-heading&#34;&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
 
