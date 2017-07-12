@@ -53,12 +53,14 @@
 &lt;p&gt;Mangroves live at the transition from sea to land, and are an integrall component of estuarine ecosystems, but if you live in Alabama you probably haven’t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys). Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states. However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They’ve also started popping up on the Mississippi Barrier islands (DISL paper), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (Sherrod and McMillan 1985; pickens and Hester 2010; Cavanaugh et al. 2014[from DISL paper]).&lt;/p&gt;
 &lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
 &lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
-&lt;figure&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;/img/ALMACO.JACKland.html&amp;quot;  /&amp;gt;
-&amp;lt;figcaption&amp;gt;
-    &amp;lt;h4&amp;gt;Steve Francia&amp;lt;/h4&amp;gt;
-&amp;lt;/figcaption&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
+&lt;pre&gt;&lt;code&gt;m&amp;lt;-leaflet() %&amp;gt;% 
+  addTiles(&amp;#39;http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&amp;#39;,
+           options = providerTileOptions(noWrap = TRUE)) %&amp;gt;%
+  addTiles(&amp;#39;http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}&amp;#39;,
+           options = providerTileOptions(noWrap = TRUE)) %&amp;gt;%
+  
+  setView(-89.87, 25.15, zoom = 6)
+  m&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystemsheading&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
@@ -77,143 +79,6 @@
 &lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil by coating their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (EPA[Herbicide Toxicity in Mangroves]).&lt;/p&gt;
 &lt;p&gt;Climate Change?&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mangroves</title>
-      <link>/post/mangroves---copy/</link>
-      <pubDate>Fri, 07 Jul 2017 12:00:00 +0000</pubDate>
-      
-      <guid>/post/mangroves---copy/</guid>
-      <description>
-
-&lt;h3 id=&#34;what-are-they&#34;&gt;What are they?&lt;/h3&gt;
-
-&lt;p&gt;Mangroves are trees and shrubs that live in salty water.  Not many trees can do this, which is readily apparent in some areas of coastal Louisiana, where saltwater intrusion has killed plants that aren&amp;rsquo;t well-equipped to live in such a hostile environment.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;dead tree, marsh, Louisiana&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;When people imagine mangroves, they usually are thinking of red mangroves.  These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are.  Prop roots help provide stability to red mangroves and supply oxygen to underground roots.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/redmangroves.jpg&#34; alt=&#34;Red Mangroves&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas.  These are black mangroves, white mangroves, and buttonwood.&lt;/p&gt;
-
-&lt;p&gt;Black mangroves live in areas higher above sea level than red mangroves.  They have horizontal roots with projections called pneumatophores and their roots are exposed to air when tides are out.  These mangroves are the type showing up in some of the northern Gulf states.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/blackmangroves.jpg&#34; alt=&#34;Black Mangroves&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;White mangroves and buttonwood live in more upland areas than either the black or red mangroves.  They are adapted to tolerate salty soil, but are rarely exposed to submersion in water, because of this, they do not have aerial roots like the other two species.  In general, they look very similar to a shrub you might have in your yard.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/whitemangroves.png&#34; alt=&#34;White Mangroves&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;where-are-they&#34;&gt;Where are they?&lt;/h3&gt;
-
-&lt;p&gt;Mangroves live at the transition from sea to land, and are an integrall component of estuarine ecosystems, but if you live in Alabama you probably haven&amp;rsquo;t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys).  Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states.  However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They&amp;rsquo;ve also started popping up on the Mississippi Barrier islands (DISL paper), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (Sherrod and McMillan 1985; pickens and Hester 2010; Cavanaugh et al. 2014[from DISL paper]).&lt;/p&gt;
-
-&lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
-
-&lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;/img/ALMACO.JACKland.html&#34;  /&gt;
-    &lt;figcaption&gt;
-        &lt;h4&gt;Steve Francia&lt;/h4&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystems-heading&#34;&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
-
-&lt;p&gt;The first, and most obvious, role of mangroves in fisheries ecosystems are as nursery areas.  Many coral reef associated fish, and some species managed by the Gulf of Mexico Fishery Management Council, start their lives in the mangroves.  The prop roots of red mangroves provide protection and feeding habitat for goliath grouper, red grouper, gag, cobia, gray snapper, red drum, and king and Spanish mackerel, to name a few.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;fish in mangroves pic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Another function of mangroves, and most estuarine vegetation, is in carbon sequestration, which is just a fancy way of saying that mangroves remove CO2 from the atmosphere and store it in their soil. Maybe you can see where this is going, but less CO2 in the atmosphere means less CO2 available to contribute to ocean acidification and unless you&amp;rsquo;ve been living under a rock, you know that ocean acidification is a large contributor to coral bleaching (Anthony et al. 2008; O. Hoegh-Guldberg et al. 2007; many others). Unfortunately, the removal or deforestation of mangroves can release that CO2 right back into the atmosphere.&lt;/p&gt;
-
-&lt;p&gt;Another interesting and relatively recent (2014) discovery is that mangrove habitats may provide some coral species refuge in an increasingly hostile ocean environment. In Hurricane Hole, St. John, USVI, researchers surveyed coral communities growning near mangrove habitats, and compared the prevalence of bleaching in corals that were shaded by mangroves to those that were not.  &lt;strong&gt;Colpophyllia natans&lt;/strong&gt; and &lt;strong&gt;Diploria labyrinthiformis&lt;/strong&gt; colonies were the most abundant reef building corals in Hurricane Hole and these were doing well despite declines in abundance on St. John reefs.  None of the shaded colonies of &lt;strong&gt;C. natans&lt;/strong&gt; were bleached, compared to 10.5% of unshaded colonies, and 34.2% of *D. labyrinthiformis** shaded colonies were bleached, compared to 66.1% of unshaded colonies (Yates et al. 2014).&lt;/p&gt;
-
-&lt;p&gt;Not only do the mangroves provide shade, which reduces coral exposure to photosynthetically active radiation, but also buffer declines in water pH (Yates et al. 2014).&lt;/p&gt;
-
-&lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
-
-&lt;h3 id=&#34;threats-to-mangroves&#34;&gt;Threats to mangroves&lt;/h3&gt;
-
-&lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronouned. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforemetioned coastal development are all threats facing mangroves (Duke and Kruczynski 1992; GMFMC 2004).&lt;/p&gt;
-
-&lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil by coating their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (EPA[Herbicide Toxicity in Mangroves]).&lt;/p&gt;
-
-&lt;p&gt;Climate Change?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mangroves</title>
-      <link>/post/mangroves/</link>
-      <pubDate>Fri, 07 Jul 2017 12:00:00 +0000</pubDate>
-      
-      <guid>/post/mangroves/</guid>
-      <description>
-
-&lt;h3 id=&#34;what-are-they&#34;&gt;What are they?&lt;/h3&gt;
-
-&lt;p&gt;Mangroves are trees and shrubs that live in salty water.  Not many trees can do this, which is readily apparent in some areas of coastal Louisiana, where saltwater intrusion has killed plants that aren&amp;rsquo;t well-equipped to live in such a hostile environment.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;dead tree, marsh, Louisiana&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;When people imagine mangroves, they usually are thinking of red mangroves.  These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are.  Prop roots help provide stability to red mangroves and supply oxygen to underground roots.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/redmangroves.jpg&#34; alt=&#34;Red Mangroves&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas.  These are black mangroves, white mangroves, and buttonwood.&lt;/p&gt;
-
-&lt;p&gt;Black mangroves live in areas higher above sea level than red mangroves.  They have horizontal roots with projections called pneumatophores and their roots are exposed to air when tides are out.  These mangroves are the type showing up in some of the northern Gulf states.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/blackmangroves.jpg&#34; alt=&#34;Black Mangroves&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;White mangroves and buttonwood live in more upland areas than either the black or red mangroves.  They are adapted to tolerate salty soil, but are rarely exposed to submersion in water, because of this, they do not have aerial roots like the other two species.  In general, they look very similar to a shrub you might have in your yard.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/whitemangroves.png&#34; alt=&#34;White Mangroves&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;where-are-they&#34;&gt;Where are they?&lt;/h3&gt;
-
-&lt;p&gt;Mangroves live at the transition from sea to land, and are an integrall component of estuarine ecosystems, but if you live in Alabama you probably haven&amp;rsquo;t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys).  Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states.  However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They&amp;rsquo;ve also started popping up on the Mississippi Barrier islands (DISL paper), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (Sherrod and McMillan 1985; pickens and Hester 2010; Cavanaugh et al. 2014[from DISL paper]).&lt;/p&gt;
-
-&lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
-
-&lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
-
-&lt;p&gt;[[embed url=&amp;ldquo;&lt;a href=&#34;http://portal.gulfcouncil.org/ReportAGoliath/ReportAGoliath.html&amp;quot;]&#34; target=&#34;_blank&#34;&gt;http://portal.gulfcouncil.org/ReportAGoliath/ReportAGoliath.html&amp;quot;]&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;what-function-do-mangroves-have-in-fisheries-ecosystems-heading&#34;&gt;What function do mangroves have in fisheries ecosystems?(HEADING?)&lt;/h3&gt;
-
-&lt;p&gt;The first, and most obvious, role of mangroves in fisheries ecosystems are as nursery areas.  Many coral reef associated fish, and some species managed by the Gulf of Mexico Fishery Management Council, start their lives in the mangroves.  The prop roots of red mangroves provide protection and feeding habitat for goliath grouper, red grouper, gag, cobia, gray snapper, red drum, and king and Spanish mackerel, to name a few.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;fish in mangroves pic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Another function of mangroves, and most estuarine vegetation, is in carbon sequestration, which is just a fancy way of saying that mangroves remove CO2 from the atmosphere and store it in their soil. Maybe you can see where this is going, but less CO2 in the atmosphere means less CO2 available to contribute to ocean acidification and unless you&amp;rsquo;ve been living under a rock, you know that ocean acidification is a large contributor to coral bleaching (Anthony et al. 2008; O. Hoegh-Guldberg et al. 2007; many others). Unfortunately, the removal or deforestation of mangroves can release that CO2 right back into the atmosphere.&lt;/p&gt;
-
-&lt;p&gt;Another interesting and relatively recent (2014) discovery is that mangrove habitats may provide some coral species refuge in an increasingly hostile ocean environment. In Hurricane Hole, St. John, USVI, researchers surveyed coral communities growning near mangrove habitats, and compared the prevalence of bleaching in corals that were shaded by mangroves to those that were not.  &lt;strong&gt;Colpophyllia natans&lt;/strong&gt; and &lt;strong&gt;Diploria labyrinthiformis&lt;/strong&gt; colonies were the most abundant reef building corals in Hurricane Hole and these were doing well despite declines in abundance on St. John reefs.  None of the shaded colonies of &lt;strong&gt;C. natans&lt;/strong&gt; were bleached, compared to 10.5% of unshaded colonies, and 34.2% of *D. labyrinthiformis** shaded colonies were bleached, compared to 66.1% of unshaded colonies (Yates et al. 2014).&lt;/p&gt;
-
-&lt;p&gt;Not only do the mangroves provide shade, which reduces coral exposure to photosynthetically active radiation, but also buffer declines in water pH (Yates et al. 2014).&lt;/p&gt;
-
-&lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
-
-&lt;h3 id=&#34;threats-to-mangroves&#34;&gt;Threats to mangroves&lt;/h3&gt;
-
-&lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronouned. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforemetioned coastal development are all threats facing mangroves (Duke and Kruczynski 1992; GMFMC 2004).&lt;/p&gt;
-
-&lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil by coating their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (EPA[Herbicide Toxicity in Mangroves]).&lt;/p&gt;
-
-&lt;p&gt;Climate Change?&lt;/p&gt;
 </description>
     </item>
     

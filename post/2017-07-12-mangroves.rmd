@@ -41,12 +41,16 @@ For now though, mangroves are most prevalent in central and southern Florida and
 
 To see if there are any mangroves near you, check on the interactive map below.
 
-<figure>
-    <img src="/img/ALMACO.JACKland.html"  />
-    <figcaption>
-        <h4>Steve Francia</h4>
-    </figcaption>
-</figure>
+```
+m<-leaflet() %>% 
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+           options = providerTileOptions(noWrap = TRUE)) %>%
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
+           options = providerTileOptions(noWrap = TRUE)) %>%
+  
+  setView(-89.87, 25.15, zoom = 6)
+  m
+```
 
 
 
