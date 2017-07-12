@@ -5,6 +5,11 @@ date: '2017-07-12'
 slug: mangroves
 categories: []
 tags: ["ecosystem linkages","coral"]
+summary: "what are they?"
+header:
+  image: "headers/FK_mangrove.jpg"
+  caption: "Image credit: [Florida Keys National Marine Sanctuary](http://floridakeys.noaa.gov/plants/mangroves.html/)"
+  
 ---
 
 ### What are they?
