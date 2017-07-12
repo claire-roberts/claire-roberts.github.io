@@ -9,6 +9,9 @@ summary: "what are they?"
 header:
   image: "headers/FK_mangrove.jpg"
   caption: "Image credit: [Florida Keys National Marine Sanctuary](http://floridakeys.noaa.gov/plants/mangroves.html/)"
+output:
+  html_document:
+    fig_caption: yes
   
 ---
 
@@ -20,7 +23,7 @@ Mangroves are trees and shrubs that live in salty water.  Not many trees can do 
 
 When people imagine mangroves, they usually are thinking of red mangroves.  These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are.  Prop roots help provide stability to red mangroves and supply oxygen to underground roots.
 
-![Red Mangroves](/img/redmangroves.jpg)
+![Red Mangroves\label{figurelabel}](/img/redmangroves.jpg)
 
 Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas.  These are black mangroves, white mangroves, and buttonwood.
 
@@ -41,7 +44,7 @@ For now though, mangroves are most prevalent in central and southern Florida and
 
 To see if there are any mangroves near you, check on the interactive map below.
 
-```{r map, echo=FALSE}
+```{r map, echo=FALSE, warning=FALSE}
 library(leaflet)
 m<-leaflet() %>% 
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
