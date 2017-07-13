@@ -53,6 +53,12 @@ p {
   margin-bottom: 1rem;
 }
 
+p.caption {
+	margin-top: -60px;
+	font-size: 'smaller';
+	font-style: italic;
+}
+
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
