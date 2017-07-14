@@ -7,8 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Gulf of Mexico Fishery Management Council</copyright>
-    <lastBuildDate>Wed, 12 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/coral/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Seagrasses</title>
+      <link>/post/mangroves/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mangroves/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;what-are-they&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;What are they?&lt;/h3&gt;
+&lt;p&gt;Exactly what they sound like, grasses that grow under water! While often mistaken for seaweed, they are actually more similar to the grass in your yard. They have roots, stems and leaves, and produce flowers and seeds, plus they need light to grow. Unlike your lawn though, they grow completely submerged in water.&lt;/p&gt;
+&lt;p&gt;Seagrass pic&lt;/p&gt;
+&lt;p&gt;There are about 52 species of seagrass worldwide, growing as far north as the Arctic Circle, but in Florida and around the Gulf Coast there are seven. The distribution of the difference species varies based on their preferred range of salinity, turbidity, and light requirements, but I’ll get into that more in the next section.&lt;/p&gt;
+&lt;p&gt;Most seagrasses produce sexually and asexually. Their asexual reproduction is clonal, meaning that many of the plants in a seagrass meadow may appear to be individual, but are actually a part of the same plant, with a network of underground rhizomes supporting individual shoots. These shoots will all have the same genetic code too! This kind of growth is exhibited by terrestrial species such as aspen trees and blueberry bushes. Sexual reproduction occurs via pollination, but as you might imagine, there is a noticeable lack of bees under the sea, so pollinations is aided by water movement; small invertebrates can help with this process as well. Seagrass seeds can be spread by water flow, but also by animals, such as fish and turtles, eating and excreting them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;turtle in seagrass pic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;where-are-they&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Where are they?&lt;/h3&gt;
+&lt;p&gt;To see if there are any seagrass meadows near you, check on the interactive map below.&lt;/p&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;leaflet html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]}],&#34;setView&#34;:[[25.15,-89.87],6,[]]},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&#34;role-of-seagrasses-in-fishery-ecosystems&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Role of Seagrasses in Fishery Ecosystems&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&#34;threats-to-seagrasses&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Threats to Seagrasses&lt;/h3&gt;
+&lt;p&gt;Climate Change?&lt;/p&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;p&gt;Anthony, K. R. N., D. I. Kline, G. Diaz-Pulido, S. Dove, and O. Hoegh-Guldberg. 2008. Ocean acidificiation causes bleaching and productivity loss in coral reef builders. PNAS 105(45): 17442-17446.&lt;/p&gt;
+&lt;p&gt;Cavanaugh, K. C., J. R. Kellner, A. J. Forde, D. S. Gruner, J. D. Parker, W. Rodriguez, and I. C. Feller. 2014. Poleward expansion of mangroves is a threshold response to decreased frequency of extreme cold events. Proceedings of the National Academy of Sciences 111(2):723-727.&lt;/p&gt;
+&lt;p&gt;Duke, T. and W. L. Kruczynski. 1992. The status and trends of emergent and submerged vegetated habitats of the Gulf of Mexico coastal waters, USA. EPA 800-R-92-003. Stennis Space Center, Mississippi. 161 pp.&lt;/p&gt;
+&lt;p&gt;GMFMC. 2004. Final Environmental Impact Statement for the Generic Essential Fish Habitat Amendment to the following fishery management plans of the Gulf of Mexico (GOM): Shrimp Fishery of the Gulf of Mexico, Red Drum Fishery of the Gulf of Mexico, Reef Fish Fishery of the Gulf of Mexico, Stone Crab Fishery of the Gulf of Mexico, Coral And Coral Reef Fishery of the Gulf Of Mexico, Spiny Lobster Fishery of the Gulf of Mexico and South Atlantic, and the Coastal Migratory Pelagic Resources of the Gulf of Mexico And South Atlantic. Gulf of Mexico Fishery Management Council, Tampa, Florida, 682 pp.&lt;/p&gt;
+&lt;p&gt;O. Hoegh-Guldberg, P. J. Mumby, A. J. Hooten, R. S. Steneck, P. Greenfield, E. Gomez, C. D. Harvell, P. F. Sale, A. J. Edwards, K. Caldeira, N. Knowlton, C. M. Eakin, R. Iglesias-Prieto, N. Muthiga, R. H. Bradbury, A. Dubi, and M. E. Hatziolos. 2007. Coral reefs under rapid climate change and ocean acidification. Science 318: 1737-1742.&lt;/p&gt;
+&lt;p&gt;Pickens, C. N., and M. W. Hester. 2011. Temperature tolerance of early life history stages of black mangrove &lt;em&gt;Avicennia germinans&lt;/em&gt;: Implications for range expansion. Estuaries and Coasts 34:824-830.&lt;/p&gt;
+&lt;p&gt;Scheffel, W. A., K. L. Heck Jr., J. Cebrian, M. Johnson, and D. Byron. 2013. Range expansion of black mangroves (&lt;em&gt;Avicennia germinans&lt;/em&gt;) to the Mississippi Barrier Islands. Gulf of Mexico Science 31(1/2): 79-82.&lt;/p&gt;
+&lt;p&gt;Sherrod, C. L. and C. McMillan. 1985. The distributional history and ecology of mangrove vegetation along the northern Gulf of Mexico coastal region. Contributions in Marine Science 28:129-140.&lt;/p&gt;
+&lt;p&gt;Teas, H. J. 1976. Herbicide Toxicity in mangroves. EPA-600/3-76-004. Environmental Research Laboratory, Gulf Breeze, Florida. 42 pp.&lt;/p&gt;
+&lt;p&gt;Yates, K. K., C. S. Rogers, J. J. Herlan, G. R. Brooks, N. A. Smiley, and R. A. Larson. 2014. Diverse coral communities in mangrove habitats suggest a novel refuge from climate change. Biogeosciences 11: 4321-4337.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Mangroves</title>
@@ -71,7 +126,7 @@
 &lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;threats-to-mangroves&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Threats to mangroves&lt;/h3&gt;
+&lt;h3&gt;Threats to Mangroves&lt;/h3&gt;
 &lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronouned. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforemetioned coastal development are all threats facing mangroves (Duke and Kruczynski 1992; GMFMC 2004).&lt;/p&gt;
 &lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil by coating their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (Teas 1976).&lt;/p&gt;
 &lt;p&gt;Climate Change?&lt;/p&gt;

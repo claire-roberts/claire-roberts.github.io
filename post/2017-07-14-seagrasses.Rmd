@@ -1,0 +1,86 @@
+---
+title: Seagrasses
+author: Claire Roberts
+date: '2017-07-14'
+slug: mangroves
+categories: []
+tags: ["ecosystem linkages","coral","threats"]
+summary: "Discover the role that mangroves play in ecosystems in the Gulf of Mexico"
+header:
+  image: "headers/EMmangroveseagrass.jpg"
+  caption: "Image credit: [Emily]"
+output:
+  html_document:
+    fig_caption: yes
+---
+
+### What are they?
+
+Exactly what they sound like, grasses that grow under water!  While often mistaken for seaweed, they are actually more similar to the grass in your yard.  They have roots, stems and leaves, and produce flowers and seeds, plus they need light to grow.  Unlike your lawn though, they grow completely submerged in water.
+
+Seagrass pic
+
+There are about 52 species of seagrass worldwide, growing as far north as the Arctic Circle, but in Florida and around the Gulf Coast there are seven.  The distribution of the difference species varies based on their preferred range of salinity, turbidity, and light requirements, but I'll get into that more in the next section.
+
+Most seagrasses produce sexually and asexually.  Their asexual reproduction is clonal, meaning that many of the plants in a seagrass meadow may appear to be individual, but are actually a part of the same plant, with a network of underground rhizomes supporting individual shoots.  These shoots will all have the same genetic code too!  This kind of growth is exhibited by terrestrial species such as aspen trees and blueberry bushes.  Sexual reproduction occurs via pollination, but as you might imagine, there is a noticeable lack of bees under the sea, so pollinations is aided by water movement; small invertebrates can help with this process as well. Seagrass seeds can be spread by water flow, but also by animals, such as fish and turtles, eating and excreting them.
+
+* turtle in seagrass pic
+
+
+### Where are they?
+
+
+
+To see if there are any seagrass meadows near you, check on the interactive map below.
+
+```{r map, echo=FALSE, warning=FALSE}
+library(leaflet)
+m<-leaflet() %>% 
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+           options = providerTileOptions(noWrap = TRUE)) %>%
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
+           options = providerTileOptions(noWrap = TRUE)) %>%
+  
+  setView(-89.87, 25.15, zoom = 6)
+m
+```
+
+
+
+### Role of Seagrasses in Fishery Ecosystems
+
+
+
+
+### Threats to Seagrasses
+
+
+
+Climate Change?
+
+References:
+
+Anthony, K. R. N., D. I. Kline, G. Diaz-Pulido, S. Dove, and O. Hoegh-Guldberg. 2008. Ocean acidificiation causes bleaching and productivity loss in coral reef builders. PNAS 105(45): 17442-17446.
+
+Cavanaugh, K. C., J. R. Kellner, A. J. Forde, D. S. Gruner, J. D. Parker, W. Rodriguez, and I. C. Feller. 2014. Poleward expansion of mangroves is a threshold response to decreased frequency of extreme cold events. Proceedings of the National Academy of Sciences 111(2):723-727.
+
+Duke, T. and W. L. Kruczynski. 1992. The status and trends of emergent and submerged vegetated habitats of the Gulf of Mexico coastal waters, USA. EPA 800-R-92-003. Stennis Space Center, Mississippi. 161 pp.
+
+GMFMC. 2004. Final Environmental Impact Statement for the Generic Essential Fish Habitat Amendment to the following fishery management plans of the Gulf of Mexico (GOM): Shrimp Fishery of the Gulf of Mexico, Red Drum Fishery of the Gulf of Mexico, Reef Fish Fishery of the Gulf of Mexico, Stone Crab Fishery of the Gulf of Mexico, Coral And Coral Reef Fishery of the Gulf Of Mexico, Spiny Lobster Fishery of the Gulf of Mexico and South Atlantic, and the Coastal Migratory Pelagic Resources of the Gulf of Mexico And South Atlantic. Gulf of Mexico Fishery Management Council, Tampa, Florida, 682 pp.
+
+O. Hoegh-Guldberg, P. J. Mumby, A. J. Hooten, R. S. Steneck, P. Greenfield, E. Gomez, C. D. Harvell, P. F. Sale, A. J. Edwards, K. Caldeira, N. Knowlton, C. M. Eakin, R. Iglesias-Prieto, N. Muthiga, R. H. Bradbury, A. Dubi, and M. E. Hatziolos. 2007. Coral reefs under rapid climate change and ocean acidification. Science 318: 1737-1742.
+
+Pickens, C. N., and M. W. Hester. 2011. Temperature tolerance of early life history stages of black mangrove *Avicennia germinans*: Implications for range expansion. Estuaries and Coasts 34:824-830.
+
+Scheffel, W. A., K. L. Heck Jr., J. Cebrian, M. Johnson, and D. Byron. 2013. Range expansion of black mangroves (*Avicennia germinans*) to the Mississippi Barrier Islands. Gulf of Mexico Science 31(1/2): 79-82.
+
+Sherrod, C. L. and C. McMillan. 1985. The distributional history and ecology of mangrove vegetation along the northern Gulf of Mexico coastal region. Contributions in Marine Science 28:129-140.
+
+Teas, H. J. 1976. Herbicide Toxicity in mangroves. EPA-600/3-76-004. Environmental Research Laboratory, Gulf Breeze, Florida. 42 pp.
+
+Yates, K. K., C. S. Rogers, J. J. Herlan, G. R. Brooks, N. A. Smiley, and R. A. Larson. 2014. Diverse coral communities in mangrove habitats suggest a novel refuge from climate change. Biogeosciences 11: 4321-4337.
+
+
+
+
+
