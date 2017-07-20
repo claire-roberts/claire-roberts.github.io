@@ -5,7 +5,7 @@ date: '2017-07-14'
 slug: mangroves
 categories: []
 tags: ["ecosystem linkages","coral","threats"]
-summary: "Discover the role that mangroves play in ecosystems in the Gulf of Mexico"
+summary: "Discover the role that seagrasses play in ecosystems in the Gulf of Mexico"
 header:
   image: "headers/EMmangroveseagrass.jpg"
   caption: "Image credit: [Emily]"
