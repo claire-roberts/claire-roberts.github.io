@@ -7,8 +7,8 @@ categories: []
 tags: ["ecosystem linkages","coral","threats"]
 summary: "Discover the role that seagrasses play in ecosystems in the Gulf of Mexico"
 header:
-  image: "headers/EMmangroveseagrass.jpg"
-  caption: "Image credit: [Emily]"
+  image: ""
+  caption: ""
 output:
   html_document:
     fig_caption: yes
@@ -44,15 +44,15 @@ Check out the map below to see the distribution of all seagrasses in the Gulf of
 
 
 ```{r map, echo=FALSE, warning=FALSE}
-# library(leaflet)
-# m<-leaflet() %>% 
-#   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-#            options = providerTileOptions(noWrap = TRUE)) %>%
-#   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
-#            options = providerTileOptions(noWrap = TRUE)) %>%
-#   
-#   setView(-89.87, 25.15, zoom = 6)
-# m
+library(leaflet)
+m<-leaflet() %>%
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+           options = providerTileOptions(noWrap = TRUE)) %>%
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
+           options = providerTileOptions(noWrap = TRUE)) %>%
+
+  setView(-89.87, 25.15, zoom = 6)
+m
 ```
 
 
