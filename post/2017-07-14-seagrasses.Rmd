@@ -4,18 +4,18 @@ author: Claire Roberts
 date: '2017-07-14'
 slug: seagrasses
 categories: []
-tags: []
+tags: ["ecosystem linkages","coral","threats"]
 summary: "Discover the role that seagrasses play in ecosystems in the Gulf of Mexico"
 header:
-  image: ""
-  caption: ""
+  image: "headers/EMmangroveseagrass.jpg"
+  caption: "Image credit: [Emily]"
 ---
 
 ### What are they?
 
 Exactly what they sound like, grasses that grow under water!  While often mistaken for seaweed, they are actually more similar to the grass in your yard.  They have roots, stems and leaves, and produce flowers and seeds, plus they need light to grow.  Unlike your lawn though, they grow completely submerged in water.
 
-* Seagrass pic
+![Seagrass. Image: NOAA Fisheries](/img/seagrassFlounder.jpg)
 
 There are about 52 species of seagrass worldwide, growing as far north as the Arctic Circle, but in Florida and around the Gulf Coast there are seven.  The distribution of the difference species varies based on their preferred range of salinity, turbidity, and light requirements, but I'll get into that more in the next section.
 
@@ -62,7 +62,7 @@ Another seagrass contribution to ecosystems is via water quality improvement.  T
 
 The most direct impacts of seagrass on fisheries come in the form of habitat and feeding.  Seagrass beds provide shelter for small invertebrates and small or juvenile fish.  This protection attracts larger fish and sharks which feed on the invertebrates and smaller fish.
 
-* turtle grass with snails http://www.habitat.noaa.gov/abouthabitat/underwatergrasses.html
+![Snails on turtle grass. Image: NOAA Habitat](/img/turtleGrassSnails.jpg)
 
 *shark in seagrass pic from Lindsay
 
@@ -78,7 +78,7 @@ Seagrass coverage has declined in almost all areas of the Gulf since the 1950s; 
 
 Human activities causing seagrass loss include runoff which increases due to urban development, dredging and filling, and boat scaring.  Runoff is problematic because of the pollution and nutrients entering the waterways.  These cause turbidity and increased algal growth, which in turn reduce light penetration and eventual seagrass death.  Coastal development and marine navigation require dredging and filling, which can cause physical destruction or burying of seagrass beds.  Boat scaring is caused by the propeller on a boat, and is generally accidental, taking a shortcut across a channel or straying into a shallow area can result in prop scaring.  The consequences of seagrass loss are numerous and can have impacts on the ecology and economy of an area.
 
-* prop scar damage https://coast.noaa.gov/digitalcoast/stories/propscars.html
+![Prop scar damage. Image: NOAA](/img/propscarDamageNOAA.jpg)
 
 
 
