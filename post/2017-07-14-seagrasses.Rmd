@@ -7,7 +7,7 @@ categories: []
 tags: ["ecosystem linkages","coral","threats"]
 summary: "Discover the role that seagrasses play in ecosystems in the Gulf of Mexico"
 header:
-  image: "headers/EMmangroveseagrass.jpg"
+  image: "headers/EMmangroveseagrass2.jpg"
   caption: "Image credit: [Emily]"
 ---
 
@@ -15,7 +15,7 @@ header:
 
 Exactly what they sound like, grasses that grow under water!  While often mistaken for seaweed, they are actually more similar to the grass in your yard.  They have roots, stems and leaves, and produce flowers and seeds, plus they need light to grow.  Unlike your lawn though, they grow completely submerged in water.
 
-![Seagrass. Image: NOAA Fisheries](/img/seagrassFlounder.jpg)
+![Seagrass. Image: NOAA Fisheries](/img/seagrassFlounder2.jpg)
 
 There are about 52 species of seagrass worldwide, growing as far north as the Arctic Circle, but in Florida and around the Gulf Coast there are seven.  The distribution of the difference species varies based on their preferred range of salinity, turbidity, and light requirements, but I'll get into that more in the next section.
 
