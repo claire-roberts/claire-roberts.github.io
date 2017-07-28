@@ -9,9 +9,6 @@ summary: "Discover the role that mangroves play in ecosystems in the Gulf of Mex
 header:
   image: "headers/FK_mangrove.jpg"
   caption: "Image credit: [Florida Keys National Marine Sanctuary](http://floridakeys.noaa.gov/plants/mangroves.html/)"
-output:
-  html_document:
-    fig_caption: yes
 ---
 
 ### What are they?
