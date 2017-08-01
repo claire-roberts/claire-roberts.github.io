@@ -45,13 +45,15 @@ library(leaflet)
 library(devtools)
 library(leaflet.esri)
 library(leaflet.extras)
-URL <- "http://portal.gulfcouncil.org/arcgis/rest/services/mangrove/MapServer/"
+URL <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5tocvqk4q0f2smx1t9j09uq/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
+map_attr <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
 m<-leaflet() %>% 
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
-  addEsriDynamicMapLayer(URL) %>% 
+   addTiles(URL,attribution = map_attr) %>% 
+
   
   setView(-89.87, 25.15, zoom = 6)
 m
