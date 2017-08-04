@@ -43,7 +43,7 @@ Check out the map below to see the distribution of all seagrasses in the Gulf of
 ```{r map, echo=FALSE, warning=FALSE}
 library(leaflet)
 
-URL <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5wd63jr2e2q2stl0ckqrdda/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
+URL <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5xzr4ha0rar2rpcsm9u3xtn/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
 map_attr <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
 m<-leaflet() %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
