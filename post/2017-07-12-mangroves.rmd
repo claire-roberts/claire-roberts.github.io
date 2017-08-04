@@ -42,9 +42,7 @@ To see if there are any mangroves near you, check on the interactive map below.
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
-library(devtools)
-library(leaflet.esri)
-library(leaflet.extras)
+
 URL <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5tocvqk4q0f2smx1t9j09uq/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
 map_attr <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
 m<-leaflet() %>% 
