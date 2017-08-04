@@ -53,7 +53,8 @@ m<-leaflet() %>%
    addTiles(URL,attribution = map_attr) %>% 
 
   
-  setView(-89.87, 25.15, zoom = 6)
+  setView(-89.87, 25.15, zoom = 5) %>% 
+  addLegend(position="bottomleft",colors="#e61eb1",labels="Mangroves", opacity = 1)
 m
 ```
 

@@ -40,20 +40,22 @@ Most of these species are found Gulf-wide, in varying densities.  Shoal grass an
 Check out the map below to see the distribution of all seagrasses in the Gulf of Mexico.
 
 
-```{r map, echo=FALSE, warning=FALSE}
+```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
 
-URL <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5xzr4ha0rar2rpcsm9u3xtn/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
-map_attr <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
-m<-leaflet() %>%
+URL2 <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5xzr4ha0rar2rpcsm9u3xtn/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
+map_attr2 <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
+
+m2<-leaflet() %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
-  addTiles(URL,attribution = map_attr) %>% 
+  addTiles(URL2,attribution = map_attr2) %>% 
 
-  setView(-89.87, 25.15, zoom = 6)
-m
+  setView(-89.87, 25.15, zoom = 5) %>% 
+addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1)
+m2
 ```
 
 
