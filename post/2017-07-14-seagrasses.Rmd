@@ -54,7 +54,8 @@ m2<-leaflet() %>%
   addTiles(URL2,attribution = map_attr2) %>% 
 
   setView(-89.87, 25.15, zoom = 5) %>% 
-addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1)
+addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1) 
+
 m2
 ```
 
