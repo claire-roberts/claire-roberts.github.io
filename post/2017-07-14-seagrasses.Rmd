@@ -52,7 +52,7 @@ m2<-leaflet() %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
   #addTiles(URL2,attribution = map_attr2) %>% 
-  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/mangrove2/MapServer/tile/{z}/{y}/{x}") %>% 
+  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/seagrass/MapServer/tile/{z}/{y}/{x}") %>% 
 
   setView(-89.87, 25.15, zoom = 5) %>% 
 addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1) 

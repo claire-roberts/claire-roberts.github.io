@@ -43,16 +43,13 @@ To see if there are any mangroves near you, check on the interactive map below.
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
 
-URL <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5tocvqk4q0f2smx1t9j09uq/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
-map_attr <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
 m<-leaflet() %>% 
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
-   addTiles(URL,attribution = map_attr) %>% 
+  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/mangrove/MapServer/tile/{z}/{y}/{x}") %>% 
 
-  
   setView(-82.1, 25.9, zoom = 7) %>% 
   addLegend(position="bottomleft",colors="#e61eb1",labels="Mangroves", opacity = 1) %>% 
   addMiniMap(position="bottomleft",width=100,height=100)
