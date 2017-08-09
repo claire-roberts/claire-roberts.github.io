@@ -47,11 +47,12 @@ library(leaflet)
 # map_attr2 <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
 
 m2<-leaflet() %>%
-  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-           options = providerTileOptions(noWrap = TRUE)) %>%
-  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
-           options = providerTileOptions(noWrap = TRUE)) %>%
-  #addTiles(URL2,attribution = map_attr2) %>% 
+  # addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  #          options = providerTileOptions(noWrap = TRUE)) %>%
+  # addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
+  #          options = providerTileOptions(noWrap = TRUE)) %>%
+  # #addTiles(URL2,attribution = map_attr2) %>% 
+  addTiles() %>% 
   addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/seagrass/MapServer/tile/{z}/{y}/{x}") %>% 
 
   setView(-89.87, 25.15, zoom = 5) %>% 
