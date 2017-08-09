@@ -42,6 +42,7 @@ Check out the map below to see the distribution of all seagrasses in the Gulf of
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
+library(leaflet.extras)
 
 # URL2 <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5xzr4ha0rar2rpcsm9u3xtn/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
 # map_attr2 <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
@@ -56,6 +57,7 @@ m2<-leaflet() %>%
   addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/seagrass/MapServer/tile/{z}/{y}/{x}") %>% 
 
   setView(-89.87, 25.15, zoom = 5) %>% 
+  addFullscreenControl() %>% 
 addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1) 
 
 m2
