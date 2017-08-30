@@ -40,7 +40,7 @@ Most of these species are found Gulf-wide, in varying densities.  Shoal grass an
 Check out the map below to see the distribution of all seagrasses in the Gulf of Mexico.
 
 
-```{r map, echo=FALSE, warning=FALSE, message=FALSE, fig.cap="My caption"}
+```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
 library(leaflet.extras)
 
@@ -63,6 +63,7 @@ addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1)
 m2
 ```
 
+#####* This data was collected and synthesized by the Commission for Environmental Cooperation. More information regarding how the data was gathered is available in the report, "North America's Blue Carbon: Assessing Seagrass, Salt Marsh and Mangrove Distribution and Carbon Sinks". The report is available <a href="http://www3.cec.org/islandora/en/item/11664-north-america-s-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-en.pdf"> here </a>
 
 
 ### Role of Seagrasses in Fishery Ecosystems
