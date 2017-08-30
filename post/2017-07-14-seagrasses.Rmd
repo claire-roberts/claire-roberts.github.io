@@ -63,7 +63,7 @@ addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1)
 m2
 ```
 
-#####* This data was collected and synthesized by the Commission for Environmental Cooperation. More information regarding how the data was gathered is available in the report, "North America's Blue Carbon: Assessing Seagrass, Salt Marsh and Mangrove Distribution and Carbon Sinks". The report is available <a href="http://www3.cec.org/islandora/en/item/11664-north-america-s-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-en.pdf"> here </a>
+###### * This data was collected and synthesized by the Commission for Environmental Cooperation. More information regarding how the data was gathered is available in the report, "North America's Blue Carbon: Assessing Seagrass, Salt Marsh and Mangrove Distribution and Carbon Sinks". The report is available <a href="http://www3.cec.org/islandora/en/item/11664-north-america-s-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-en.pdf"> here </a>
 
 
 ### Role of Seagrasses in Fishery Ecosystems
