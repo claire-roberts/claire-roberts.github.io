@@ -40,7 +40,7 @@ Most of these species are found Gulf-wide, in varying densities.  Shoal grass an
 Check out the map below to see the distribution of all seagrasses in the Gulf of Mexico.
 
 
-```{r map, echo=FALSE, warning=FALSE, message=FALSE}
+```{r map, echo=FALSE, warning=FALSE, message=FALSE, fig.cap="My caption"}
 library(leaflet)
 library(leaflet.extras)
 
