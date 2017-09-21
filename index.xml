@@ -11,18 +11,9 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>The Use of Management Strategy Evaluation to Explore Habitat Area of Particular Concern Designations in the Gulf of Mexico</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Thu, 24 Aug 2017 13:00:00 +0000</pubDate>
-      
-      <guid>/talk/example-talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Seagrasses</title>
       <link>/post/seagrasses/</link>
-      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/seagrasses/</guid>
       <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
@@ -100,6 +91,15 @@
 &lt;p&gt;Valentine, J.F. and J.E. Duffy. 2006. The central role of grazing in seagrass ecology. Pages 463-501 &lt;em&gt;in&lt;/em&gt; T. Larkum, R. Orth, and C. Duarte, eds. Seagrasses: biolgy, ecology, and conservation. Springer, Dordrecht, Netherlands.&lt;/p&gt;
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>The Use of Management Strategy Evaluation to Explore Habitat Area of Particular Concern Designations in the Gulf of Mexico</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Thu, 24 Aug 2017 13:00:00 +0000</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description></description>
     </item>
     
     <item>
