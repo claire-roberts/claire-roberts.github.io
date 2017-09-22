@@ -11,6 +11,96 @@
     <atom:link href="/tags/threats/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Sargassum</title>
+      <link>/post/sargassum/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sargassum/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/fullscreen/leaflet.fullscreen.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/fullscreen/Leaflet.fullscreen.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;what-are-they&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;What are they?&lt;/h3&gt;
+&lt;p&gt;If you haven’t spent any time on a boat in the ocean, you may not be familiar with this habitat. Unlike the other habitat types highlighted on this blog, &lt;em&gt;Sargassum&lt;/em&gt; is primarily found offshore (except when it washes ashore in huge mats, which occassionally happens in the USA).&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/sargassumLine.jpg&#34; alt=&#34;A Sargassum line can stretch for miles across the ocean surface. Image: Islands of the Sea 2002, NOAA/OER&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;A Sargassum line can stretch for miles across the ocean surface. Image: Islands of the Sea 2002, NOAA/OER&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Sargassum is a type of large brown seaweed that floats thanks to gas-filled bladders called pneumatocysts. They can attach to rocks or reefs, like kelp but smaller, or be free-floating.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/sargassum_kelp.jpg&#34; alt=&#34;Side-by-side of kelp (left, image courtesy of NOAA Fisheries) and Sargassum (right, image courtesy of Art Howard, NAPRO).&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Side-by-side of kelp (left, image courtesy of NOAA Fisheries) and &lt;em&gt;Sargassum&lt;/em&gt; (right, image courtesy of Art Howard, NAPRO).&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;There are two free-floating species that end up in the Gulf of Mexico, &lt;em&gt;Sargassum natans&lt;/em&gt; and &lt;em&gt;Sargassum fluitans&lt;/em&gt;. Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (Deacon 1942, Stoner 1983) . Add more information!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;where-is-it&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Where is it?&lt;/h3&gt;
+&lt;p&gt;Good question! But a tough one to answer. Satellite imagery can provide snapshots in time of the distributions of Sargassum, but because its location is heavily influenced by wave, current, and wind action, Sargassum mats are always on the move. Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the Sargassum is funneled out of the Gulf into the Atlantic in July (Gower and King 2008).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/sargassumMap.jpg&#34; alt=&#34;Seasonal distribution of Sargassum.&#34; /&gt; ###### * This map is available in a story map produced by GRID-Arendal which can be found &lt;a target=&#34;_blank&#34; href=&#34;https://grid-arendal.maps.arcgis.com/apps/MapJournal/?appid=f616ec1db45f4e898970bd448b190f50&#34;&gt; here &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Some scientists are working on modeling the anticipated location of Sargassum. &lt;a href=&#34;https://eos.org/features/sargassum-watch-warns-of-incoming-seaweed&#34; class=&#34;uri&#34;&gt;https://eos.org/features/sargassum-watch-warns-of-incoming-seaweed&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;these-data-were-collected-and-synthesized-by-the-commission-for-environmental-cooperation.-more-information-regarding-how-the-data-were-gathered-is-available-in-the-report-north-americas-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-distribution-and-carbon-sinks.-the-report-is-available-here&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;* These data were collected and synthesized by the Commission for Environmental Cooperation. More information regarding how the data were gathered is available in the report, “North America’s Blue Carbon: Assessing Seagrass, Salt Marsh and Mangrove Distribution and Carbon Sinks”. The report is available &lt;a target=&#34;_blank&#34; href=&#34;http://www3.cec.org/islandora/en/item/11664-north-america-s-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-en.pdf&#34;&gt; here &lt;/a&gt;&lt;/h6&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;role-of-sargassum-in-fishery-ecosystems&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Role of &lt;em&gt;Sargassum&lt;/em&gt; in Fishery Ecosystems&lt;/h3&gt;
+&lt;p&gt;The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where Sargassum comes into play. Sargassum provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates. One species that really depends on Sargassum and is an important Gulf of Mexico fishery, is the gray triggerfish. While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using Sargassum as protection from predators (Simmons and Szedlmayer 2010).&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/sargassumFish.jpg&#34; alt=&#34;Small fishes living in the Sargassum. Image: NOAA.&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Small fishes living in the Sargassum. Image: NOAA.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Because of the juvenile fish that congregate in Sargassum mats, predators also use this habitat to feed. If you’ve done any dolphin (the fish, not the mammal) fishing you know that finding Sargassum is key to finding the fish. This is because dolphinfish eat the other small fish species hiding in the Sargassum, and the same is true for tuna. Sargassum contributes significantly to the fishery ecosystems beyond being an important habitat; other ocean animals like birds, turtles, and marine mammals use it as well.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/turtleSargassum.jpg&#34; alt=&#34;Sargassum provides essential habitat for species like turtles. Image: NOAA Ocean Explorer.&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Sargassum provides essential habitat for species like turtles. Image: NOAA Ocean Explorer.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In 2011, 2014, and 2015 large amounts of Sargassum washed ashore in the Caribbean and onto some beaches in the United States; it was such a substantial event that it was reported on by Newsweek in 2015 (&lt;a href=&#34;http://www.newsweek.com/2015/07/10/sargassum-ruining-beaches-texas-tobago-347735.html&#34; class=&#34;uri&#34;&gt;http://www.newsweek.com/2015/07/10/sargassum-ruining-beaches-texas-tobago-347735.html&lt;/a&gt;). When Sargassum shows up at your favorite ocean-front spot it looks dirty, covering up the beautiful sandy beaches and it can smell pretty bad when it bakes in the sun. But it’s important to remember that such material can provide nutrients to beaches and can even help protect land by strengthening sand dunes.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/sargassumBeach.jpg&#34; alt=&#34;Sargassum on the beach. Image: David Horner, NPS&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Sargassum on the beach. Image: David Horner, NPS&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;threats-to-sargassum&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Threats to &lt;em&gt;Sargassum&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Sargassum, like other habitat types described in this blog, is threatened by natural and human-caused degredation. Extreme weather events like hurricanes can break up sargassum mats, cause them to strand on beaches, or sink altogether. Habitat fragmentation or disappearance can be very problematic for species that depend on Sargassum in an otherwise structure-less environment.&lt;/p&gt;
+&lt;p&gt;Anthropogenic (human-caused) threats to Sargassum are numerous and include obvious things like pollution, but also some disturbances that may not immediately come time mind, like shipping traffic. For those living in the Gulf states, when you think of pollution to floating habitat, an oil spill probably comes to mind. When oil comes into contact with it Sargassum it gets caught up in the floating mats and impacts the both the species associated with it and the Sargassum itself. Oil vapors inhaled by species on the surface (like dolphins, turtles, and birds) can be toxic, as can contact with the oil directly whether it be dissolved or as a surface slick, which would impact animals beneath the surface as well (like fish and crabs). The direct impacts of oil to Sargassum include restricting growth and sinking. If the Sargassum dies from prolonged oil exposure and sinks it can bring associated oil to the bottom of the ocean where it can negatively impact animals there also. For more information on oil spills and Sargassum check out this post from &lt;a href=&#34;https://response.restoration.noaa.gov/about/media/what-happens-when-oil-spills-meet-massive-islands-seaweed.html&#34; target = &#34;_blank&#34;&gt;NOAA’s Office of Response and Restoration&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/sargassumOil.jpg&#34; alt=&#34;Illustration of the potential impacts of an oil spill on sargassum and associated marine life in the water column. Image: NOAA Response and Restoration&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Illustration of the potential impacts of an oil spill on sargassum and associated marine life in the water column. Image: NOAA Response and Restoration&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;If you’ve seen Sargassum washed up on the beach or out in the ocean, you’ve probably seen garbage tangled up in it. Since most plastics float and get carried by currents, wind and wave action the same as Sargassum they tend to get mixed up together. This type of pollution is primarily dangerous for animals in the Sargassum and less so for the Sargassum itself. Up to 52% of sea turtles worldwide have eaten plastic debris, and olive ridley turtles, while not present in the Gulf of Mexico, are at particular risk because of their feeding habitats (Schuyler et al. 2016). Many species of sea turtle, including olive ridleys, eat jellyfish and plastic bags can look very similar floating through the ocean. In addition to the harm of ingesting plastics, animals can also get caught in things like fishing nets, plastic bags or balloons.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/turtleNet.jpg&#34; alt=&#34;Diver releasing a sea turtle caught in a derelict fishing net. Image: NOAA Marine Debris Program&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Diver releasing a sea turtle caught in a derelict fishing net. Image: NOAA Marine Debris Program&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Shipping traffic is another less obvious disruptor of Sargassum environments. Cargo and tanker vessels are a common occurrence in the Gulf of Mexico and they have the potential to disrupt Sargassum communities in several ways; 1) physical disruption of moving through Sargassum mats, 2) pollutant (sewage, oil, chemicals) discharge and 3) disruptive noise generated by the ships (Laffoley et al. 2011). More research is needed to quantify the impacts of shipping vessels on Sargassum communities.&lt;/p&gt;
+&lt;p&gt;A thorough report on threats to Sargassum is available from The Sargasso Sea Alliance and can be found &lt;a href = &#34;http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cargo and tanker vessel traffic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;leaflet html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}},&#34;fullscreenControl&#34;:{&#34;position&#34;:&#34;topleft&#34;,&#34;pseudoFullscreen&#34;:false}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://portal.gulfcouncil.org/arcgis/rest/services/seagrass/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;minZoom&#34;:0,&#34;maxZoom&#34;:18,&#34;maxNativeZoom&#34;:null,&#34;tileSize&#34;:256,&#34;subdomains&#34;:&#34;abc&#34;,&#34;errorTileUrl&#34;:&#34;&#34;,&#34;tms&#34;:false,&#34;continuousWorld&#34;:false,&#34;noWrap&#34;:false,&#34;zoomOffset&#34;:0,&#34;zoomReverse&#34;:false,&#34;opacity&#34;:1,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addLegend&#34;,&#34;args&#34;:[{&#34;colors&#34;:[&#34;#e0e326&#34;],&#34;labels&#34;:[&#34;Seagrass&#34;],&#34;na_color&#34;:null,&#34;na_label&#34;:&#34;NA&#34;,&#34;opacity&#34;:1,&#34;position&#34;:&#34;bottomleft&#34;,&#34;type&#34;:&#34;unknown&#34;,&#34;title&#34;:null,&#34;extra&#34;:null,&#34;layerId&#34;:null,&#34;className&#34;:&#34;info legend&#34;}]}],&#34;setView&#34;:[[25.15,-89.87],5,[]]},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;References Deacon, G. E. R. 1942. The Sargasso Sea. The Geographical Journal. 99: 16-28.&lt;/p&gt;
+&lt;p&gt;Simmons, C. M. and S. T. Szedlmayer. 2010. Recruitment of age-0 gray triggerfish to benthic structured habitat in the northern Gulf of Mexico. Transactions of the American Fisheries Society, 140(1): 14-20.&lt;/p&gt;
+&lt;p&gt;Stoner, A. W. 1983. Pelagic Sargassum: Evidence for a major decrease in biomass. Deep Sea Research, 30: 469-474.&lt;/p&gt;
+&lt;p&gt;Schuyler et al . 2016&lt;/p&gt;
+&lt;p&gt;Laffoley, D.d’A., Roe, H.S.J., Angel, M.V., Ardron, J., Bates, N.R, Boyd, I.L., Brooke, S., Buck, K.N., Carlson, C.A., Causey, B., Conte, M.H., Christiansen, S., Cleary, J., Donnelly, J., Earle, S.A., Edwards, R., Gjerde, K.M., Giovannoni, S.J., Gulick, S., Gollock, M., Hallett, J., Halpin, P., Hanel, R., Hemphill, A., Johnson, R.J., Knap, A.H., Lomas, M.W., McKenna, S.A., Miller, M.J., Miller, P.I., Ming, F.W., Moffitt, R., Nelson, N.B., Parson, L., Peters, A.J., Pitt, J., Rouja, P., Roberts, J., Roberts, J., Seigel, D.A., Siuda, A.N.S., Steinberg, D.K., Stevenson, A., Sumaila, V.R., Swartz, W., Thorrold, S., Trott, T.M., and V. Vats. 2011. The protection and management of the Sargasso Sea: The golden floating rainforest of the Atlantic Ocean. Summary Science and Supporting Evidence Case.Sargasso Sea Alliance, 44 pp.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Seagrasses</title>
       <link>/post/seagrasses/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
