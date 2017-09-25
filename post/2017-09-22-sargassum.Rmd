@@ -7,8 +7,8 @@ categories: []
 tags: ["ecosystem linkages","coral","threats"]
 summary: "Discover the role that *Sargassum* plays in ecosystems in the Gulf of Mexico"
 header:
-  image: "headers/EMmangroveseagrass2.jpg"
-  caption: "Image credit: Emily Muehlstein"
+  image: "headers/sargassumgps.jpg"
+  caption: "Image credit: Flower Garden Banks National Marine Sanctuary"
 ---
 
 ### What are they?
@@ -17,12 +17,13 @@ If you haven't spent any time on a boat in the ocean, you may not be familiar wi
 
 ![A Sargassum line can stretch for miles across the ocean surface. Image: Islands of the Sea 2002, NOAA/OER](/img/sargassumLine.jpg)
 
-Sargassum is a type of large brown seaweed that floats thanks to gas-filled bladders called pneumatocysts.  They can attach to rocks or reefs, like kelp but smaller, or be free-floating.
+Sargassum, also called Gulf weed, is a type of large brown seaweed that floats thanks to gas-filled bladders called pneumatocysts.  It can attach to rocks or reefs, like kelp but smaller, or be free-floating.
 
 ![Side-by-side of kelp (left, image courtesy of NOAA Fisheries) and *Sargassum* (right, image courtesy of Art Howard, NAPRO).](/img/sargassum_kelp.jpg)
 
 
-There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (Deacon 1942, Stoner 1983) . Add more information!
+There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (Deacon 1942, Stoner 1983). Most Sargassum has a life span of a year or less, dying off in winter and being replenished the next year (Gower and King 2011).
+
 
 
 ### Where is it?
@@ -30,16 +31,11 @@ There are two free-floating species that end up in the Gulf of Mexico, *Sargassu
 Good question!  But a tough one to answer.  Satellite imagery can provide snapshots in time of the distributions of Sargassum, but because its location is heavily influenced by wave, current, and wind action, Sargassum mats are always on the move.  Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the Sargassum is funneled out of the Gulf into the Atlantic in July (Gower and King 2008).
 
 ![Seasonal distribution of Sargassum.](/img/sargassumMap.jpg)
+
 ###### * This map is available in a story map produced by GRID-Arendal which can be found <a target="_blank" href="https://grid-arendal.maps.arcgis.com/apps/MapJournal/?appid=f616ec1db45f4e898970bd448b190f50"> here </a>
 
-Some scientists are working on modeling the anticipated location of Sargassum.
+Scientists are working on modeling the anticipated location of Sargassum in an effort to prepare decision makers for beaching events. Sargassum Watch System, the culmination of some of this work, uses satelite data and numerical models to track Sargassum.  Sargassum tracking is almost real time, and is available <a href="http://optics.marine.usf.edu/projects/SaWS.html" target="_blank">here</a>.
 https://eos.org/features/sargassum-watch-warns-of-incoming-seaweed
-
-
-
-
-
-###### * These data were collected and synthesized by the Commission for Environmental Cooperation. More information regarding how the data were gathered is available in the report, "North America's Blue Carbon: Assessing Seagrass, Salt Marsh and Mangrove Distribution and Carbon Sinks". The report is available <a target="_blank" href="http://www3.cec.org/islandora/en/item/11664-north-america-s-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-en.pdf"> here </a>
 
 
 ### Role of *Sargassum* in Fishery Ecosystems
@@ -79,38 +75,41 @@ A thorough report on threats to Sargassum is available from The Sargasso Sea All
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
 library(leaflet.extras)
-
-# URL2 <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5xzr4ha0rar2rpcsm9u3xtn/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
-# map_attr2 <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
-
+library(leaflet.esri)
 m2<-leaflet() %>%
-  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
-  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
+  addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/Mapserver/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
-  #addTiles(URL2,attribution = map_attr2) %>%
   
-  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/seagrass/MapServer/tile/{z}/{y}/{x}") %>% 
-
+  addEsriDynamicMapLayer(url="https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/2013TankerVesselDensity/MapServer",group='Tanker') %>% 
+  addEsriDynamicMapLayer(url="https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/2013CargoVesselDensity/MapServer",group='Cargo') %>%
+  addLayersControl(
+    baseGroups = c("Tanker", "Cargo"),
+    options = layersControlOptions(collapsed = FALSE)) %>% 
+    
   setView(-89.87, 25.15, zoom = 5) %>% 
   addFullscreenControl() %>% 
-addLegend(position="bottomleft",colors="#e0e326",labels="Seagrass", opacity = 1) 
+ addLegend("bottomleft", colors =c("#e83134",  "#fafa87", "#2892c7"),labels= c("high", "", "low"),title= "Amount of Vessel Traffic",opacity = 1) 
 
 m2
 ```
 
+References:
 
+<a href = "http://www.jstor.org/stable/1788092" target="_blank">Deacon, G. E. R. 1942. The Sargasso Sea. The Geographical Journal. 99: 16-28.</a>
 
-References
-Deacon, G. E. R. 1942. The Sargasso Sea. The Geographical Journal. 99: 16-28.
+<a href= "http://precedings.nature.com/documents/1894/version/1" target="_blank">Gower, J. and S. King. 2008. Satellite images show the movement of floating *Sargassum* in the Gulf of Mexico and Atlantic Ocean. Available from Nature Precedings.</a>
 
-Simmons, C. M. and S. T. Szedlmayer. 2010. Recruitment of age-0 gray triggerfish to benthic structured habitat in the northern Gulf of Mexico. Transactions of the American Fisheries Society, 140(1): 14-20.
+<a href="http://www.tandfonline.com/doi/abs/10.1080/01431161003639660" target="_blank">Gower, J. F. R. and S. A. King. 2011. Distribution of floating *Sargassum* in the Gulf of Mexico and the Atlantic Ocean Mapped using MERIS. International Journal of Remote Sensing, 32(7).</a> 
 
-Stoner, A. W. 1983. Pelagic Sargassum: Evidence for a major decrease in biomass. Deep Sea Research, 30: 469-474.
+<a href="http://www.tandfonline.com/doi/abs/10.1080/00028487.2011.545002?journalCode=utaf20" target="_blank">Simmons, C. M. and S. T. Szedlmayer. 2010. Recruitment of age-0 gray triggerfish to benthic structured habitat in the northern Gulf of Mexico. Transactions of the American Fisheries Society, 140(1): 14-20.</a>
 
-Schuyler et al . 2016
+<a href="http://www.sciencedirect.com/science/article/pii/0198014983900791" target="_blank">Stoner, A. W. 1983. Pelagic Sargassum: Evidence for a major decrease in biomass. Deep Sea Research, 30: 469-474.</a>
 
-Laffoley, D.d'A., Roe, H.S.J., Angel, M.V., Ardron, J., Bates, N.R, Boyd, I.L., Brooke, S., Buck, K.N., Carlson, C.A., Causey, B., Conte, M.H., Christiansen, S., Cleary, J., Donnelly, J., Earle, S.A., Edwards, R., Gjerde, K.M., Giovannoni, S.J., Gulick, S., Gollock, M., Hallett, J., Halpin, P., Hanel, R., Hemphill, A., Johnson, R.J., Knap, A.H., Lomas, M.W., McKenna, S.A.,  Miller, M.J., Miller, P.I., Ming, F.W., Moffitt, R., Nelson, N.B., Parson, L., Peters, A.J., Pitt, J., Rouja, P., Roberts, J., Roberts, J., Seigel, D.A., Siuda, A.N.S., Steinberg, D.K., Stevenson, A., Sumaila, V.R., Swartz, W., Thorrold, S., Trott, T.M., and V. Vats.  2011. The protection and management of the Sargasso Sea: The golden floating rainforest of the Atlantic Ocean. Summary Science and Supporting Evidence Case.Sargasso Sea Alliance, 44 pp.
+<a href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.13078/abstract" target="_blank">Schuyler, Q. A., C. Wilcox, K. A. Townsed, K.R. Wedemeyer-Strombel, G. Balazs, E. van Sebille and B. D. Hardesty. Risk analysis reveals global hotspots for marine debris ingestion by sea turtles. Global Change Biology, 22(2): 567-576.</a>
+
+<a href="http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank">Laffoley, D.d'A., H. S. J. Roe, M. V. Angel, J. Ardron, N. R. Bates, I. L. Boyd, S. Brooke, K. N. Buck, C. A. Carlson, B. Causey, M. H. Conte, S. Christiansen, J. Cleary, J. Donnelly, S. A. Earle, R. Edwards, K. M. Gjerde, S. J. Giovannoni, S. Gulick, M. Gollock, J. Hallett,P. Halpin, R. Hanel, A. Hemphill, R. J. Johnson, A. H. Knap, M. W. Lomas, S. A. McKenna, M. J. Miller,P. I. Miller, F. W. Ming, R. Moffitt, N. B. Nelson, L. Parson, A. J. Peters, J. Pitt, P. Rouja, J. Roberts, J. Roberts, D. A. Seigel, A. N. S. Siuda, D. K. Steinberg, A. Stevenson, V. R. Sumaila, W. Swartz, S. Thorrold, T. M. Trott and V. Vats.  2011. The protection and management of the Sargasso Sea: The golden floating rainforest of the Atlantic Ocean. Summary Science and Supporting Evidence Case.Sargasso Sea Alliance, 44 pp.</a>
 
 
 
