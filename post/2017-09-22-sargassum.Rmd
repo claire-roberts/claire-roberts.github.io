@@ -7,69 +7,67 @@ categories: []
 tags: ["ecosystem linkages","coral","threats"]
 summary: "Discover the role that *Sargassum* plays in ecosystems in the Gulf of Mexico"
 header:
-  image: "headers/sargassumgps.jpg"
+  image: "headers/sargassumgps2.jpg"
   caption: "Image credit: Flower Garden Banks National Marine Sanctuary"
 ---
 
-### What are they?
+### What is it?
 
 If you haven't spent any time on a boat in the ocean, you may not be familiar with this habitat.  Unlike the other habitat types highlighted on this blog, *Sargassum* is primarily found offshore (except when it washes ashore in huge mats, which occassionally happens in the USA).
 
-![A Sargassum line can stretch for miles across the ocean surface. Image: Islands of the Sea 2002, NOAA/OER](/img/sargassumLine.jpg)
+![A *Sargassum* line can stretch for miles across the ocean surface. Image: Islands of the Sea 2002, NOAA/OER](/img/sargassumLine.jpg)
 
-Sargassum, also called Gulf weed, is a type of large brown seaweed that floats thanks to gas-filled bladders called pneumatocysts.  It can attach to rocks or reefs, like kelp but smaller, or be free-floating.
+*Sargassum*, also called Gulf weed, is a type of large brown seaweed that floats thanks to gas-filled bladders called pneumatocysts.  It can attach to rocks or reefs, like kelp but smaller, or be free-floating.
 
 ![Side-by-side of kelp (left, image courtesy of NOAA Fisheries) and *Sargassum* (right, image courtesy of Art Howard, NAPRO).](/img/sargassum_kelp.jpg)
 
 
-There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (Deacon 1942, Stoner 1983). Most Sargassum has a life span of a year or less, dying off in winter and being replenished the next year (Gower and King 2011).
+There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (Deacon 1942, Stoner 1983). Most *Sargassum* has a life span of a year or less, dying off in winter and being replenished the next year (Gower and King 2011).
 
 
 
 ### Where is it?
 
-Good question!  But a tough one to answer.  Satellite imagery can provide snapshots in time of the distributions of Sargassum, but because its location is heavily influenced by wave, current, and wind action, Sargassum mats are always on the move.  Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the Sargassum is funneled out of the Gulf into the Atlantic in July (Gower and King 2008).
+Good question!  But a tough one to answer.  Satellite imagery can provide snapshots in time of the distributions of *Sargassum*, but because its location is heavily influenced by wave, current, and wind action, *Sargassum* mats are always on the move.  Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the *Sargassum* is funneled out of the Gulf into the Atlantic in July (Gower and King 2008).
 
-![Seasonal distribution of Sargassum.](/img/sargassumMap.jpg)
+![Seasonal distribution of *Sargassum*.](/img/sargassumMap.jpg)
 
 ###### * This map is available in a story map produced by GRID-Arendal which can be found <a target="_blank" href="https://grid-arendal.maps.arcgis.com/apps/MapJournal/?appid=f616ec1db45f4e898970bd448b190f50"> here </a>
 
-Scientists are working on modeling the anticipated location of Sargassum in an effort to prepare decision makers for beaching events. Sargassum Watch System, the culmination of some of this work, uses satelite data and numerical models to track Sargassum.  Sargassum tracking is almost real time, and is available <a href="http://optics.marine.usf.edu/projects/SaWS.html" target="_blank">here</a>.
+
+Scientists are working on modeling the anticipated location of *Sargassum* in an effort to prepare decision makers for beaching events. Sargassum Watch System, the culmination of some of this work, uses satelite data and numerical models to track *Sargassum*.  *Sargassum* tracking is almost real time, and is available <a href="http://optics.marine.usf.edu/projects/SaWS.html" target="_blank">here</a>.
 https://eos.org/features/sargassum-watch-warns-of-incoming-seaweed
 
 
 ### Role of *Sargassum* in Fishery Ecosystems
 
-The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where Sargassum comes into play.  Sargassum provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  One species that really depends on Sargassum and is an important Gulf of Mexico fishery, is the gray triggerfish.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using Sargassum as protection from predators (Simmons and Szedlmayer 2010).
+The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where *Sargassum* comes into play.  *Sargassum* provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  One species that really depends on *Sargassum* and is an important Gulf of Mexico fishery, is the gray triggerfish.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using *Sargassum* as protection from predators (Simmons and Szedlmayer 2010).
 
-![Small fishes living in the Sargassum. Image: NOAA.](/img/sargassumFish.jpg)
+![Small fishes living in the *Sargassum*. Image: NOAA.](/img/sargassumFish.jpg)
 
-Because of the juvenile fish that congregate in Sargassum mats, predators also use this habitat to feed.  If you've done any dolphin (the fish, not the mammal) fishing you know that finding Sargassum is key to finding the fish.  This is because dolphinfish eat the other small fish species hiding in the Sargassum, and the same is true for tuna.  Sargassum contributes significantly to the fishery ecosystems beyond being an important habitat; other ocean animals like birds, turtles, and marine mammals use it as well.
+Because of the juvenile fish that congregate in *Sargassum* mats, predators also use this habitat to feed.  If you've done any dolphin (the fish, not the mammal) fishing you know that finding *Sargassum* is key to finding the fish.  This is because dolphinfish eat the other small fish species hiding in the *Sargassum*, and the same is true for tuna.  *Sargassum* contributes significantly to the fishery ecosystems beyond being an important habitat; other ocean animals like birds, turtles, and marine mammals use it as well.
 
-![Sargassum provides essential habitat for species like turtles. Image: NOAA Ocean Explorer.](/img/turtleSargassum.jpg)
+![*Sargassum* provides essential habitat for species like turtles. Image: NOAA Ocean Explorer.](/img/turtleSargassum.jpg)
 
-In 2011, 2014, and 2015 large amounts of Sargassum washed ashore in the Caribbean and onto some beaches in the United States; it was such a substantial event that it was reported on by Newsweek in 2015 (http://www.newsweek.com/2015/07/10/sargassum-ruining-beaches-texas-tobago-347735.html).  When Sargassum shows up at your favorite ocean-front spot it looks dirty, covering up the beautiful sandy beaches and it can smell pretty bad when it bakes in the sun.  But it's important to remember that such material can provide nutrients to beaches and can even help protect land by strengthening sand dunes. 
-
+In 2011, 2014, and 2015 large amounts of *Sargassum* washed ashore in the Caribbean and onto some beaches in the United States; it was such a substantial event that it was reported on by Newsweek in 2015 (http://www.newsweek.com/2015/07/10/sargassum-ruining-beaches-texas-tobago-347735.html).  When *Sargassum* shows up at your favorite ocean-front spot it looks dirty, covering up the beautiful sandy beaches and it can smell pretty bad when it bakes in the sun.  But it's important to remember that such material can provide nutrients to beaches and can even help protect land by strengthening sand dunes. 
 
 ![Sargassum on the beach. Image: David Horner, NPS](/img/sargassumBeach.jpg)
 
 ### Threats to *Sargassum*
 
-Sargassum, like other habitat types described in this blog, is threatened by natural and human-caused degredation.  Extreme weather events like hurricanes can break up sargassum mats, cause them to strand on beaches, or sink altogether.  Habitat fragmentation or disappearance can be very problematic for species that depend on Sargassum in an otherwise structure-less environment.
+*Sargassum*, like other habitat types described in this blog, is threatened by natural and human-caused degredation.  Extreme weather events like hurricanes can break up *Sargassum* mats, cause them to strand on beaches, or sink altogether.  Habitat fragmentation or disappearance can be very problematic for species that depend on *Sargassum* in an otherwise structure-less environment.
 
-Anthropogenic (human-caused) threats to Sargassum are numerous and include obvious things like pollution, but also some disturbances that may not immediately come time mind, like shipping traffic.  For those living in the Gulf states, when you think of pollution to floating habitat, an oil spill probably comes to mind.  When oil comes into contact with it Sargassum it gets caught up in the floating mats and impacts the both the species associated with it and the Sargassum itself.  Oil vapors inhaled by species on the surface (like dolphins, turtles, and birds) can be toxic, as can contact with the oil directly whether it be dissolved or as a surface slick, which would impact animals beneath the surface as well (like fish and crabs).  The direct impacts of oil to Sargassum include restricting growth and sinking.  If the Sargassum dies from prolonged oil exposure and sinks it can bring associated oil to the bottom of the ocean where it can negatively impact animals there also.  For more information on oil spills and Sargassum check out this post from <a href="https://response.restoration.noaa.gov/about/media/what-happens-when-oil-spills-meet-massive-islands-seaweed.html" target = "_blank">NOAA's Office of Response and Restoration</a>.
+Anthropogenic (human-caused) threats to *Sargassum* are numerous and include obvious things like pollution, but also some disturbances that may not immediately come time mind, like shipping traffic.  For those living in the Gulf states, when you think of pollution to floating habitat, an oil spill probably comes to mind.  When oil comes into contact with it *Sargassum* it gets caught up in the floating mats and impacts the both the species associated with it and the *Sargassum* itself.  Oil vapors inhaled by species on the surface (like dolphins, turtles, and birds) can be toxic, as can contact with the oil directly whether it be dissolved or as a surface slick, which would impact animals beneath the surface as well (like fish and crabs).  The direct impacts of oil to Sargassum include restricting growth and sinking.  If the *Sargassum* dies from prolonged oil exposure and sinks it can bring associated oil to the bottom of the ocean where it can negatively impact animals there also.  For more information on oil spills and *Sargassum* check out this post from <a href="https://response.restoration.noaa.gov/about/media/what-happens-when-oil-spills-meet-massive-islands-seaweed.html" target = "_blank">NOAA's Office of Response and Restoration</a>.
 
-![Illustration of the potential impacts of an oil spill on sargassum and associated marine life in the water column. Image: NOAA Response and Restoration](/img/sargassumOil.jpg)
+![Illustration of the potential impacts of an oil spill on *Sargassum* and associated marine life in the water column. Image: NOAA Response and Restoration](/img/sargassumOil.jpg)
 
-If you've seen Sargassum washed up on the beach or out in the ocean, you've probably seen garbage tangled up in it.  Since most plastics float and get carried by currents, wind and wave action the same as Sargassum they tend to get mixed up together.  This type of pollution is primarily dangerous for animals in the Sargassum and less so for the Sargassum itself.  Up to 52% of sea turtles worldwide have eaten plastic debris, and olive ridley turtles, while not present in the Gulf of Mexico, are at particular risk because of their feeding habitats (Schuyler et al. 2016).  Many species of sea turtle, including olive ridleys, eat jellyfish and plastic bags can look very similar floating through the ocean.  In addition to the harm of ingesting plastics, animals can also get caught in things like fishing nets, plastic bags or balloons.
+If you've seen *Sargassum* washed up on the beach or out in the ocean, you've probably seen garbage tangled up in it.  Since most plastics float and get carried by currents, wind and wave action the same as *Sargassum* they tend to get mixed up together.  This type of pollution is primarily dangerous for animals in the *Sargassum* and less so for the *Sargassum* itself.  Up to 52% of sea turtles worldwide have eaten plastic debris, and olive ridley turtles, while not present in the Gulf of Mexico, are at particular risk because of their feeding habitats (Schuyler et al. 2016).  Many species of sea turtle, including olive ridleys, eat jellyfish and plastic bags can look very similar floating through the ocean.  In addition to the harm of ingesting plastics, animals can also get caught in things like fishing nets, plastic bags or balloons.
 
 ![Diver releasing a sea turtle caught in a derelict fishing net. Image: NOAA Marine Debris Program](/img/turtleNet.jpg)
 
-Shipping traffic is another less obvious disruptor of Sargassum environments.  Cargo and tanker vessels are a common occurrence in the Gulf of Mexico and they have the potential to disrupt Sargassum communities in several ways; 1) physical disruption of moving through Sargassum mats, 2) pollutant (sewage, oil, chemicals) discharge and 3) disruptive noise generated by the ships (Laffoley et al. 2011). More research is needed to quantify the impacts of shipping vessels on Sargassum communities. 
+Shipping traffic is another less obvious disruptor of *Sargassum* environments.  Cargo and tanker vessels are a common occurrence in the Gulf of Mexico and they have the potential to disrupt *Sargassum* communities in several ways; 1) physical disruption of moving through *Sargassum* mats, 2) pollutant (sewage, oil, chemicals) discharge and 3) disruptive noise generated by the ships (Laffoley et al. 2011). More research is needed to quantify the impacts of shipping vessels on *Sargassum* communities. 
 
-A thorough report on threats to Sargassum is available from The Sargasso Sea Alliance and can be found <a href = "http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank">here</a>.
-
-* Cargo and tanker vessel traffic	
+A thorough report on threats to *Sargassum* is available from The Sargasso Sea Alliance and can be found <a href = "http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank">here</a>.
 
 
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
@@ -94,6 +92,8 @@ m2<-leaflet() %>%
 
 m2
 ```
+<br>
+
 
 References:
 
