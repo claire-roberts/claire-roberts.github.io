@@ -55,7 +55,7 @@ p {
 
 p.caption {
 	margin-top: -60px;
-	font-size: 'smaller';
+	font-size: 15px;
 	font-style: italic;
 }
 
@@ -408,7 +408,7 @@ article {
 
 .article-banner {
   width: 100%;
-  height: auto;
+  height: 45vh;
 }
 
 .article-header-caption {
@@ -484,7 +484,7 @@ article {
   /*box-shadow: 1px 1px 0px #edefed, -1px -1px 0px #edefed, 1px -1px 0px #edefed, -1px 1px 0px #edefed;*/
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  margin-top: 0px;
   margin-bottom: 60px;
   padding-left: 0;
   padding-right: 0;

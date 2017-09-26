@@ -46,7 +46,7 @@ library(leaflet.extras)
 
 # URL2 <- "https://api.mapbox.com/styles/v1/clairegmfmc/cj5xzr4ha0rar2rpcsm9u3xtn/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2xhaXJlZ21mbWMiLCJhIjoiY2o1dG83cW9lMGM5dTMzdDgzdHh2emVkbSJ9.uH9tkZq3rXb53lcCc7O-TA"
 # map_attr2 <- "<a href='https://www.mapbox.com/map-feedback/'>Mapbox</a>"
-
+map_attr1<-"Commission for Environmental Cooperation | Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN"
 m2<-leaflet() %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
@@ -54,7 +54,7 @@ m2<-leaflet() %>%
            options = providerTileOptions(noWrap = TRUE)) %>%
   #addTiles(URL2,attribution = map_attr2) %>%
   
-  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/seagrass/MapServer/tile/{z}/{y}/{x}") %>% 
+  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/seagrass/MapServer/tile/{z}/{y}/{x}", attribution=map_attr1) %>% 
 
   setView(-89.87, 25.15, zoom = 5) %>% 
   addFullscreenControl() %>% 

@@ -43,13 +43,13 @@ To see if there are any mangroves near you, check on the interactive map below.
 ```{r map, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
 library(leaflet.extras)
-
+map_attr1<-"Commission for Environmental Cooperation | Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN"
 m<-leaflet() %>% 
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
-  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/mangrove/MapServer/tile/{z}/{y}/{x}") %>% 
+  addTiles("http://portal.gulfcouncil.org/arcgis/rest/services/mangrove/MapServer/tile/{z}/{y}/{x}", attribution=map_attr1) %>% 
 
   setView(-82.1, 25.9, zoom = 7) %>% 
   addFullscreenControl() %>%

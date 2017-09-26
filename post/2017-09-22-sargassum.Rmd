@@ -7,7 +7,7 @@ categories: []
 tags: ["ecosystem linkages","coral","threats"]
 summary: "Discover the role that *Sargassum* plays in ecosystems in the Gulf of Mexico"
 header:
-  image: "headers/sargassumgps2.jpg"
+  image: "headers/sargassumgps.jpg"
   caption: "Image credit: Flower Garden Banks National Marine Sanctuary"
 ---
 
@@ -74,11 +74,13 @@ A thorough report on threats to *Sargassum* is available from The Sargasso Sea A
 library(leaflet)
 library(leaflet.extras)
 library(leaflet.esri)
+map_attr <- "MarineCadastre.gov | ESRI, HERE, Garmin, NGA, USGS, NPS"
 m2<-leaflet() %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
            options = providerTileOptions(noWrap = TRUE)) %>%
   addTiles('http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/Mapserver/tile/{z}/{y}/{x}',
-           options = providerTileOptions(noWrap = TRUE)) %>%
+           options = providerTileOptions(noWrap = TRUE),
+           attribution=map_attr) %>%
   
   addEsriDynamicMapLayer(url="https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/2013TankerVesselDensity/MapServer",group='Tanker') %>% 
   addEsriDynamicMapLayer(url="https://coast.noaa.gov/arcgis/rest/services/MarineCadastre/2013CargoVesselDensity/MapServer",group='Cargo') %>%
