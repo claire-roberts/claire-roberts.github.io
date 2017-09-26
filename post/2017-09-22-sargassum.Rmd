@@ -22,13 +22,13 @@ If you haven't spent any time on a boat in the ocean, you may not be familiar wi
 ![Side-by-side of kelp (left, image courtesy of NOAA Fisheries) and *Sargassum* (right, image courtesy of Art Howard, NAPRO).](/img/sargassum_kelp.jpg)
 
 
-There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (Deacon 1942, Stoner 1983). Most *Sargassum* has a life span of a year or less, dying off in winter and being replenished the next year (Gower and King 2011).
+There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (<a href="http://www.jstor.org/stable/1788092" target="_blank"> Deacon 1942</a>, <a href="http://www.sciencedirect.com/science/article/pii/0198014983900791" target="_blank"> Stoner 1983</a>). Most *Sargassum* has a life span of a year or less, dying off in winter and being replenished the next year (<a href="http://www.tandfonline.com/doi/abs/10.1080/01431161003639660" target="_blank"> Gower and King 2011</a>).
 
 
 
 ### Where is it?
 
-Good question!  But a tough one to answer.  Satellite imagery can provide snapshots in time of the distributions of *Sargassum*, but because its location is heavily influenced by wave, current, and wind action, *Sargassum* mats are always on the move.  Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the *Sargassum* is funneled out of the Gulf into the Atlantic in July (Gower and King 2008).
+Good question!  But a tough one to answer.  Satellite imagery can provide snapshots in time of the distributions of *Sargassum*, but because its location is heavily influenced by wave, current, and wind action, *Sargassum* mats are always on the move.  Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the *Sargassum* is funneled out of the Gulf into the Atlantic in July (<a href="http://precedings.nature.com/documents/1894/version/1" target="_blank"> Gower and King 2008</a>).
 
 ![Seasonal distribution of *Sargassum*.](/img/sargassumMap.jpg)
 
@@ -36,12 +36,10 @@ Good question!  But a tough one to answer.  Satellite imagery can provide snapsh
 
 
 Scientists are working on modeling the anticipated location of *Sargassum* in an effort to prepare decision makers for beaching events. Sargassum Watch System, the culmination of some of this work, uses satelite data and numerical models to track *Sargassum*.  *Sargassum* tracking is almost real time, and is available <a href="http://optics.marine.usf.edu/projects/SaWS.html" target="_blank">here</a>.
-https://eos.org/features/sargassum-watch-warns-of-incoming-seaweed
-
 
 ### Role of *Sargassum* in Fishery Ecosystems
 
-The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where *Sargassum* comes into play.  *Sargassum* provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  One species that really depends on *Sargassum* and is an important Gulf of Mexico fishery, is the gray triggerfish.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using *Sargassum* as protection from predators (Simmons and Szedlmayer 2010).
+The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where *Sargassum* comes into play.  *Sargassum* provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  One species that really depends on *Sargassum* and is an important Gulf of Mexico fishery, is the gray triggerfish.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using *Sargassum* as protection from predators (<a href="http://www.tandfonline.com/doi/abs/10.1080/00028487.2011.545002?journalCode=utaf20" target="_blank"> Simmons and Szedlmayer 2010</a>).
 
 ![Small fishes living in the *Sargassum*. Image: NOAA.](/img/sargassumFish.jpg)
 
@@ -49,7 +47,7 @@ Because of the juvenile fish that congregate in *Sargassum* mats, predators also
 
 ![*Sargassum* provides essential habitat for species like turtles. Image: NOAA Ocean Explorer.](/img/turtleSargassum.jpg)
 
-In 2011, 2014, and 2015 large amounts of *Sargassum* washed ashore in the Caribbean and onto some beaches in the United States; it was such a substantial event that it was reported on by Newsweek in 2015 (http://www.newsweek.com/2015/07/10/sargassum-ruining-beaches-texas-tobago-347735.html).  When *Sargassum* shows up at your favorite ocean-front spot it looks dirty, covering up the beautiful sandy beaches and it can smell pretty bad when it bakes in the sun.  But it's important to remember that such material can provide nutrients to beaches and can even help protect land by strengthening sand dunes. 
+In 2011, 2014, and 2015 large amounts of *Sargassum* washed ashore in the Caribbean and onto some beaches in the United States; it was such a substantial event that it was reported on by <a href="http://www.newsweek.com/2015/07/10/sargassum-ruining-beaches-texas-tobago-347735.html" target="_blank">Newsweek in 2015</a>.  When *Sargassum* shows up at your favorite ocean-front spot it looks dirty, covering up the beautiful sandy beaches and it can smell pretty bad when it bakes in the sun.  But it's important to remember that such material can provide nutrients to beaches and can even help protect land by strengthening sand dunes. 
 
 ![Sargassum on the beach. Image: David Horner, NPS](/img/sargassumBeach.jpg)
 
@@ -61,11 +59,11 @@ Anthropogenic (human-caused) threats to *Sargassum* are numerous and include obv
 
 ![Illustration of the potential impacts of an oil spill on *Sargassum* and associated marine life in the water column. Image: NOAA Response and Restoration](/img/sargassumOil.jpg)
 
-If you've seen *Sargassum* washed up on the beach or out in the ocean, you've probably seen garbage tangled up in it.  Since most plastics float and get carried by currents, wind and wave action the same as *Sargassum* they tend to get mixed up together.  This type of pollution is primarily dangerous for animals in the *Sargassum* and less so for the *Sargassum* itself.  Up to 52% of sea turtles worldwide have eaten plastic debris, and olive ridley turtles, while not present in the Gulf of Mexico, are at particular risk because of their feeding habitats (Schuyler et al. 2016).  Many species of sea turtle, including olive ridleys, eat jellyfish and plastic bags can look very similar floating through the ocean.  In addition to the harm of ingesting plastics, animals can also get caught in things like fishing nets, plastic bags or balloons.
+If you've seen *Sargassum* washed up on the beach or out in the ocean, you've probably seen garbage tangled up in it.  Since most plastics float and get carried by currents, wind and wave action the same as *Sargassum* they tend to get mixed up together.  This type of pollution is primarily dangerous for animals in the *Sargassum* and less so for the *Sargassum* itself.  Up to 52% of sea turtles worldwide have eaten plastic debris, and olive ridley turtles, while not present in the Gulf of Mexico, are at particular risk because of their feeding habitats (<a href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.13078/abstract" target="_blank"> Schuyler et al. 2016</a>).  Many species of sea turtle, including olive ridleys, eat jellyfish and plastic bags can look very similar floating through the ocean.  In addition to the harm of ingesting plastics, animals can also get caught in things like fishing nets, plastic bags or balloons.
 
 ![Diver releasing a sea turtle caught in a derelict fishing net. Image: NOAA Marine Debris Program](/img/turtleNet.jpg)
 
-Shipping traffic is another less obvious disruptor of *Sargassum* environments.  Cargo and tanker vessels are a common occurrence in the Gulf of Mexico and they have the potential to disrupt *Sargassum* communities in several ways; 1) physical disruption of moving through *Sargassum* mats, 2) pollutant (sewage, oil, chemicals) discharge and 3) disruptive noise generated by the ships (Laffoley et al. 2011). More research is needed to quantify the impacts of shipping vessels on *Sargassum* communities. 
+Shipping traffic is another less obvious disruptor of *Sargassum* environments.  Cargo and tanker vessels are a common occurrence in the Gulf of Mexico and they have the potential to disrupt *Sargassum* communities in several ways; 1) physical disruption of moving through *Sargassum* mats, 2) pollutant (sewage, oil, chemicals) discharge and 3) disruptive noise generated by the ships (<a href="http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank"> Laffoley et al. 2011</a>). More research is needed to quantify the impacts of shipping vessels on *Sargassum* communities. 
 
 A thorough report on threats to *Sargassum* is available from The Sargasso Sea Alliance and can be found <a href = "http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank">here</a>.
 
@@ -99,19 +97,23 @@ m2
 
 References:
 
-<a href = "http://www.jstor.org/stable/1788092" target="_blank">Deacon, G. E. R. 1942. The Sargasso Sea. The Geographical Journal. 99: 16-28.</a>
+Deacon, G. E. R. 1942. The Sargasso Sea. The Geographical Journal. 99: 16-28.
 
-<a href= "http://precedings.nature.com/documents/1894/version/1" target="_blank">Gower, J. and S. King. 2008. Satellite images show the movement of floating *Sargassum* in the Gulf of Mexico and Atlantic Ocean. Available from Nature Precedings.</a>
+Gower, J. and S. King. 2008. Satellite images show the movement of floating *Sargassum* in the Gulf of Mexico and Atlantic Ocean. Available from Nature Precedings.
 
-<a href="http://www.tandfonline.com/doi/abs/10.1080/01431161003639660" target="_blank">Gower, J. F. R. and S. A. King. 2011. Distribution of floating *Sargassum* in the Gulf of Mexico and the Atlantic Ocean Mapped using MERIS. International Journal of Remote Sensing, 32(7).</a> 
+Gower, J. F. R. and S. A. King. 2011. Distribution of floating *Sargassum* in the Gulf of Mexico and the Atlantic Ocean Mapped using MERIS. International Journal of Remote Sensing, 32(7).
 
-<a href="http://www.tandfonline.com/doi/abs/10.1080/00028487.2011.545002?journalCode=utaf20" target="_blank">Simmons, C. M. and S. T. Szedlmayer. 2010. Recruitment of age-0 gray triggerfish to benthic structured habitat in the northern Gulf of Mexico. Transactions of the American Fisheries Society, 140(1): 14-20.</a>
+Laffoley, D.d'A., H. S. J. Roe, M. V. Angel, J. Ardron, N. R. Bates, I. L. Boyd, S. Brooke, K. N. Buck, C. A. Carlson, B. Causey, M. H. Conte, S. Christiansen, J. Cleary, J. Donnelly, S. A. Earle, R. Edwards, K. M. Gjerde, S. J. Giovannoni, S. Gulick, M. Gollock, J. Hallett,P. Halpin, R. Hanel, A. Hemphill, R. J. Johnson, A. H. Knap, M. W. Lomas, S. A. McKenna, M. J. Miller,P. I. Miller, F. W. Ming, R. Moffitt, N. B. Nelson, L. Parson, A. J. Peters, J. Pitt, P. Rouja, J. Roberts, J. Roberts, D. A. Seigel, A. N. S. Siuda, D. K. Steinberg, A. Stevenson, V. R. Sumaila, W. Swartz, S. Thorrold, T. M. Trott and V. Vats.  2011. The protection and management of the Sargasso Sea: The golden floating rainforest of the Atlantic Ocean. Summary Science and Supporting Evidence Case.Sargasso Sea Alliance, 44 pp.
 
-<a href="http://www.sciencedirect.com/science/article/pii/0198014983900791" target="_blank">Stoner, A. W. 1983. Pelagic Sargassum: Evidence for a major decrease in biomass. Deep Sea Research, 30: 469-474.</a>
+Schuyler, Q. A., C. Wilcox, K. A. Townsed, K.R. Wedemeyer-Strombel, G. Balazs, E. van Sebille and B. D. Hardesty. Risk analysis reveals global hotspots for marine debris ingestion by sea turtles. Global Change Biology, 22(2): 567-576.
 
-<a href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.13078/abstract" target="_blank">Schuyler, Q. A., C. Wilcox, K. A. Townsed, K.R. Wedemeyer-Strombel, G. Balazs, E. van Sebille and B. D. Hardesty. Risk analysis reveals global hotspots for marine debris ingestion by sea turtles. Global Change Biology, 22(2): 567-576.</a>
+Simmons, C. M. and S. T. Szedlmayer. 2010. Recruitment of age-0 gray triggerfish to benthic structured habitat in the northern Gulf of Mexico. Transactions of the American Fisheries Society, 140(1): 14-20.
 
-<a href="http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank">Laffoley, D.d'A., H. S. J. Roe, M. V. Angel, J. Ardron, N. R. Bates, I. L. Boyd, S. Brooke, K. N. Buck, C. A. Carlson, B. Causey, M. H. Conte, S. Christiansen, J. Cleary, J. Donnelly, S. A. Earle, R. Edwards, K. M. Gjerde, S. J. Giovannoni, S. Gulick, M. Gollock, J. Hallett,P. Halpin, R. Hanel, A. Hemphill, R. J. Johnson, A. H. Knap, M. W. Lomas, S. A. McKenna, M. J. Miller,P. I. Miller, F. W. Ming, R. Moffitt, N. B. Nelson, L. Parson, A. J. Peters, J. Pitt, P. Rouja, J. Roberts, J. Roberts, D. A. Seigel, A. N. S. Siuda, D. K. Steinberg, A. Stevenson, V. R. Sumaila, W. Swartz, S. Thorrold, T. M. Trott and V. Vats.  2011. The protection and management of the Sargasso Sea: The golden floating rainforest of the Atlantic Ocean. Summary Science and Supporting Evidence Case.Sargasso Sea Alliance, 44 pp.</a>
+Stoner, A. W. 1983. Pelagic Sargassum: Evidence for a major decrease in biomass. Deep Sea Research, 30: 469-474.
+
+
+
+
 
 
 
