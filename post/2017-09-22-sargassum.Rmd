@@ -7,7 +7,7 @@ categories: []
 tags: ["ecosystem linkages","coral","threats"]
 summary: "Discover the role that *Sargassum* plays in ecosystems in the Gulf of Mexico"
 header:
-  image: "headers/sargassumgps.jpg"
+  image: "headers/sargassumgps2.jpg"
   caption: "Image credit: Flower Garden Banks National Marine Sanctuary"
 ---
 
@@ -22,13 +22,13 @@ If you haven't spent any time on a boat in the ocean, you may not be familiar wi
 ![Side-by-side of kelp (left, image courtesy of NOAA Fisheries) and *Sargassum* (right, image courtesy of Art Howard, NAPRO).](/img/sargassum_kelp.jpg)
 
 
-There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (<a href="http://www.jstor.org/stable/1788092" target="_blank"> Deacon 1942</a>, <a href="http://www.sciencedirect.com/science/article/pii/0198014983900791" target="_blank"> Stoner 1983</a>). Most *Sargassum* has a life span of a year or less, dying off in winter and being replenished the next year (<a href="http://www.tandfonline.com/doi/abs/10.1080/01431161003639660" target="_blank"> Gower and King 2011</a>).
+There are two free-floating species that end up in the Gulf of Mexico, *Sargassum natans* and *Sargassum fluitans*.  Neither species spend any of their life cycle attached to the seafloor and they reproduce solely by fragmentations, distinguishing them from all other seaweeds (<a href="http://www.jstor.org/stable/1788092" target="_blank">Deacon 1942</a>, <a href="http://www.sciencedirect.com/science/article/pii/0198014983900791" target="_blank">Stoner 1983</a>). Most *Sargassum* has a life span of a year or less, dying off in winter and being replenished the next year (<a href="http://www.tandfonline.com/doi/abs/10.1080/01431161003639660" target="_blank">Gower and King 2011</a>).
 
 
 
 ### Where is it?
 
-Good question!  But a tough one to answer.  Satellite imagery can provide snapshots in time of the distributions of *Sargassum*, but because its location is heavily influenced by wave, current, and wind action, *Sargassum* mats are always on the move.  Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the *Sargassum* is funneled out of the Gulf into the Atlantic in July (<a href="http://precedings.nature.com/documents/1894/version/1" target="_blank"> Gower and King 2008</a>).
+Good question!  But a tough one to answer.  Satellite imagery can provide snapshots in time of the distributions of *Sargassum*, but because its location is heavily influenced by wave, current, and wind action, *Sargassum* mats are always on the move.  Such satellite imagery has been analyzed and data suggest that the northwest Gulf of Mexico may act as a major nursery area between March and June before the *Sargassum* is funneled out of the Gulf into the Atlantic in July (<a href="http://precedings.nature.com/documents/1894/version/1" target="_blank">Gower and King 2008</a>).
 
 ![Seasonal distribution of *Sargassum*.](/img/sargassumMap.jpg)
 
@@ -39,7 +39,7 @@ Scientists are working on modeling the anticipated location of *Sargassum* in an
 
 ### Role of *Sargassum* in Fishery Ecosystems
 
-The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where *Sargassum* comes into play.  *Sargassum* provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  One species that really depends on *Sargassum* and is an important Gulf of Mexico fishery, is the gray triggerfish.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using *Sargassum* as protection from predators (<a href="http://www.tandfonline.com/doi/abs/10.1080/00028487.2011.545002?journalCode=utaf20" target="_blank"> Simmons and Szedlmayer 2010</a>).
+The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where *Sargassum* comes into play.  *Sargassum* provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  One species that really depends on *Sargassum* and is an important Gulf of Mexico fishery, is the gray triggerfish.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using *Sargassum* as protection from predators (<a href="http://www.tandfonline.com/doi/abs/10.1080/00028487.2011.545002?journalCode=utaf20" target="_blank">Simmons and Szedlmayer 2010</a>).
 
 ![Small fishes living in the *Sargassum*. Image: NOAA.](/img/sargassumFish.jpg)
 
@@ -59,11 +59,11 @@ Anthropogenic (human-caused) threats to *Sargassum* are numerous and include obv
 
 ![Illustration of the potential impacts of an oil spill on *Sargassum* and associated marine life in the water column. Image: NOAA Response and Restoration](/img/sargassumOil.jpg)
 
-If you've seen *Sargassum* washed up on the beach or out in the ocean, you've probably seen garbage tangled up in it.  Since most plastics float and get carried by currents, wind and wave action the same as *Sargassum* they tend to get mixed up together.  This type of pollution is primarily dangerous for animals in the *Sargassum* and less so for the *Sargassum* itself.  Up to 52% of sea turtles worldwide have eaten plastic debris, and olive ridley turtles, while not present in the Gulf of Mexico, are at particular risk because of their feeding habitats (<a href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.13078/abstract" target="_blank"> Schuyler et al. 2016</a>).  Many species of sea turtle, including olive ridleys, eat jellyfish and plastic bags can look very similar floating through the ocean.  In addition to the harm of ingesting plastics, animals can also get caught in things like fishing nets, plastic bags or balloons.
+If you've seen *Sargassum* washed up on the beach or out in the ocean, you've probably seen garbage tangled up in it.  Since most plastics float and get carried by currents, wind and wave action the same as *Sargassum* they tend to get mixed up together.  This type of pollution is primarily dangerous for animals in the *Sargassum* and less so for the *Sargassum* itself.  Up to 52% of sea turtles worldwide have eaten plastic debris, and olive ridley turtles, while not present in the Gulf of Mexico, are at particular risk because of their feeding habitats (<a href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.13078/abstract" target="_blank">Schuyler et al. 2016</a>).  Many species of sea turtle, including olive ridleys, eat jellyfish and plastic bags can look very similar floating through the ocean.  In addition to the harm of ingesting plastics, animals can also get caught in things like fishing nets, plastic bags or balloons.
 
 ![Diver releasing a sea turtle caught in a derelict fishing net. Image: NOAA Marine Debris Program](/img/turtleNet.jpg)
 
-Shipping traffic is another less obvious disruptor of *Sargassum* environments.  Cargo and tanker vessels are a common occurrence in the Gulf of Mexico and they have the potential to disrupt *Sargassum* communities in several ways; 1) physical disruption of moving through *Sargassum* mats, 2) pollutant (sewage, oil, chemicals) discharge and 3) disruptive noise generated by the ships (<a href="http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank"> Laffoley et al. 2011</a>). More research is needed to quantify the impacts of shipping vessels on *Sargassum* communities. 
+Shipping traffic is another less obvious disruptor of *Sargassum* environments.  Cargo and tanker vessels are a common occurrence in the Gulf of Mexico and they have the potential to disrupt *Sargassum* communities in several ways; 1) physical disruption of moving through *Sargassum* mats, 2) pollutant (sewage, oil, chemicals) discharge and 3) disruptive noise generated by the ships (<a href="http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank">Laffoley et al. 2011</a>). More research is needed to quantify the impacts of shipping vessels on *Sargassum* communities. 
 
 A thorough report on threats to *Sargassum* is available from The Sargasso Sea Alliance and can be found <a href = "http://www.sargassoseacommission.org/storage/documents/Sargasso.Report.9.12.pdf" target="_blank">here</a>.
 
@@ -92,8 +92,10 @@ m2<-leaflet() %>%
 
 m2
 ```
-<br>
 
+###### * This map illustrates the density of shipping vessel (cargo and tanker) traffic in the Gulf of Mexico in 2013. More information on the data used to create this map can be found <a href="https://catalog.data.gov/dataset?tags=shipping" target="_blank">here</a>.
+
+<br>
 
 References:
 

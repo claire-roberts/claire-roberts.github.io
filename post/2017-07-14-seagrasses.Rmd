@@ -78,7 +78,7 @@ Seagrasses directly impact fisheries in the form of habitat and feeding.  Seagra
 
 <!--*shark in seagrass pic from Lindsay (add this eventually)-->
 
-Many species managed by the Gulf Council - like red drum, spiny lobster, and hogfish (to name a few) - use seagrasses at some point in their life cycle.  Often as fish grow larger, the seagrasses no longer provide adequate protection from predators, the blades of grass no longer conceal them, and they move to larger structures; these can be reefs, hard bottom areas, or even artificial reefs, depending on the region of the Gulf.  Once a fish has moved to its adult habitat, it may stay there for the remainder of its life, with all of its reproduction, feeding, and habitat needs being satisfied by these larger structures.  Other species, like herbivores, will use a reef as shelter at night and spend the day foraging in nearby seagrass beds (Valentine and Duffy 2006), whereas smaller, reef-associated carnivores spend time on reefs during the day and forage in seagrass at night (e.g., Burke 1995, Cox et al. 1997, Blackmon 2005).  It's these relationships that intrinsically link seagrass and coral habitats, though these interactions are most pronounced in southern Florida and the Florida Keys, where both habitats are prevalent.
+Many species managed by the Gulf Council - like red drum, spiny lobster, and hogfish (to name a few) - use seagrasses at some point in their life cycle.  Often as fish grow larger, the seagrasses no longer provide adequate protection from predators, the blades of grass no longer conceal them, and they move to larger structures; these can be reefs, hard bottom areas, or even artificial reefs, depending on the region of the Gulf.  Once a fish has moved to its adult habitat, it may stay there for the remainder of its life, with all of its reproduction, feeding, and habitat needs being satisfied by these larger structures.  Other species, like herbivores, will use a reef as shelter at night and spend the day foraging in nearby seagrass beds (<a href="https://link.springer.com/chapter/10.1007/978-1-4020-2983-7_20" target="_blank">Valentine and Duffy 2006</a>), whereas smaller, reef-associated carnivores spend time on reefs during the day and forage in seagrass at night (e.g., <a href="https://link.springer.com/article/10.1007/BF00001467" target="_blank">Burke 1995</a>, <a href="http://www.publish.csiro.au/MF/MF97198" target="_blank">Cox et al. 1997</a>, <a href=" http://sunzi.lib.hku.hk/ER/detail/hkul/3520238" target="_blank">Blackmon 2005</a>).  It's these relationships that intrinsically link seagrass and coral habitats, though these interactions are most pronounced in southern Florida and the Florida Keys, where both habitats are prevalent.
 
 
 ### Threats to Seagrasses
@@ -93,15 +93,15 @@ Human activities causing seagrass loss include runoff which increases due to urb
 
 References:
 
-<a href="http://sunzi.lib.hku.hk/ER/detail/hkul/3520238" target="_blank">Blackmon, D.C. 2005. Diel vertical migration of seagrass-associated benthic invertebrates: a novel escape mechanism that provides and allochthonous input of seagrass-based production to coral reef resident predators. Dissertation. University of South Alabama, Mobile, Alabama, USA.</a>
+Blackmon, D.C. 2005. Diel vertical migration of seagrass-associated benthic invertebrates: a novel escape mechanism that provides and allochthonous input of seagrass-based production to coral reef resident predators. Dissertation. University of South Alabama, Mobile, Alabama, USA.
 
-<a href="https://link.springer.com/article/10.1007/BF00001467" target="_blank">Burke, N.C. 1995. Nocturnal foraging habitats of French and bluestriped grunts, *Haemulon flavolineatum* and *H. sciurus*, at Tobacco Caye, Belize. Environmental Biology of Fishes 42:365-374.</a>
+Burke, N.C. 1995. Nocturnal foraging habitats of French and bluestriped grunts, *Haemulon flavolineatum* and *H. sciurus*, at Tobacco Caye, Belize. Environmental Biology of Fishes 42:365-374.
 
-<a href="http://www.publish.csiro.au/MF/MF97198" target="_blank">Cox, C., J. Hunt, W.G. Lyons, and G.E. Davis. 1997. Nocturnal foraging of the Caribbean lobster(*Panularis argus*) on offshore reefs of Florida, USA. Marine and Freshwater Research 48:671-679.</a>
+Cox, C., J. Hunt, W.G. Lyons, and G.E. Davis. 1997. Nocturnal foraging of the Caribbean lobster(*Panularis argus*) on offshore reefs of Florida, USA. Marine and Freshwater Research 48:671-679.
 
 Eleuterius, L.N. and G.J. Miller. 1976. Observations on seagrass and seaweeds in Mississippi Sound since Hurricant Camille. Journal of Mississippi Academy of Science 21:58-63.
 
-<a href="https://link.springer.com/chapter/10.1007/978-1-4020-2983-7_20" target="_blank">Valentine, J.F. and J.E. Duffy. 2006. The central role of grazing in seagrass ecology. Pages 463-501 *in* T. Larkum, R. Orth, and C. Duarte, eds. Seagrasses: biolgy, ecology, and conservation. Springer, Dordrecht, Netherlands.</a>
+Valentine, J.F. and J.E. Duffy. 2006. The central role of grazing in seagrass ecology. Pages 463-501 *in* T. Larkum, R. Orth, and C. Duarte, eds. Seagrasses: biolgy, ecology, and conservation. Springer, Dordrecht, Netherlands.
 
 
 
