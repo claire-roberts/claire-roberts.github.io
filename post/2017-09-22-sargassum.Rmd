@@ -1,7 +1,7 @@
 ---
 title: Sargassum
 author: Claire Roberts
-date: '2017-09-21'
+date: '2017-09-28'
 slug: sargassum
 categories: []
 tags: ["ecosystem linkages","coral","threats"]
@@ -39,7 +39,9 @@ Scientists are working on modeling the anticipated location of *Sargassum* in an
 
 ### Role of *Sargassum* in Fishery Ecosystems
 
-The pelagic open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where *Sargassum* comes into play.  *Sargassum* provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  Gray triggerfish are an important Gulf of Mexico reef fish and really depend on *Sargassum*.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using *Sargassum* as protection from predators (<a href="http://www.tandfonline.com/doi/abs/10.1080/00028487.2011.545002?journalCode=utaf20" target="_blank">Simmons and Szedlmayer 2010</a>).
+The open ocean is a pretty barren place, offering very little protection for larval and juvenile fishes that live in the water column, which is where *Sargassum* comes into play.  *Sargassum* provides shelter on the surface of the ocean for about 120 species of fish and 120+ species of invertebrates.  Gray triggerfish are an important Gulf of Mexico reef fish and really depend on *Sargassum*.  While the adults are caught on reefs, juveniles spend anywhere from four to seven months in the pelagic environment, using *Sargassum* as protection from predators (<a href="http://www.tandfonline.com/doi/abs/10.1080/00028487.2011.545002?journalCode=utaf20" target="_blank">Simmons and Szedlmayer 2011</a>).
+
+Greater amberjack, like gray triggerfish, is a commercially and recreationally important reef fish in the Gulf of Mexico. This species has been overfished since 1998 and, despite extensive management measures, has not successfully rebuilt.  Larval and juvenile greater amberjack depend on *Sargassum* as habitat (<a href="http://www.ingentaconnect.com/contentone/umrsmas/bullmar/2004/00000074/00000001/art00007" target="_blank">Wells and Rooker 2004</a>) and, given their overfished status, protecting any habitat critical to survival and growth is particularly important. 
 
 ![Small fishes living in the *Sargassum*. Image: NOAA.](/img/sargassumFish.jpg)
 
@@ -55,7 +57,7 @@ In 2011, 2014, and 2015 large amounts of *Sargassum* washed ashore in the Caribb
 
 *Sargassum*, like other habitat types described in this blog, is threatened by natural and human-caused degradation.  Extreme weather events like hurricanes can break up *Sargassum* mats, cause them to strand on beaches, or sink altogether.  Habitat fragmentation or disappearance entirely can be very problematic for species that depend on *Sargassum* in an otherwise structure-less environment.
 
-Anthropogenic (human-caused) threats to *Sargassum* are numerous and include obvious things like pollution, but also some disturbances that may not immediately come to mind, like shipping traffic.  For those living in the Gulf states, when you think of pollution to floating habitat, an oil spill is probably your first thought.  When oil comes into contact with *Sargassum* it gets caught up in the floating mats and impacts the both the *Sargassum* itself, and the species associated with it.  The direct impacts of oil to Sargassum include restricting growth and sinking.  If the *Sargassum* dies from prolonged oil exposure and sinks it can bring associated oil to the bottom of the ocean where it can negatively impact animals there also. Oil vapors inhaled by species on the surface (like dolphins, turtles, and birds) can be toxic, as can contact with the oil directly, whether it be dissolved or as a surface slick, which would impact animals beneath the surface as well (like fish and crabs). For more information on oil spills and *Sargassum* check out this post from <a href="https://response.restoration.noaa.gov/about/media/what-happens-when-oil-spills-meet-massive-islands-seaweed.html" target = "_blank">NOAA's Office of Response and Restoration</a>.
+Anthropogenic (human-caused) threats to *Sargassum* are numerous and include obvious things like pollution, but also some disturbances that may not immediately come to mind, like shipping traffic.  For those living in the Gulf states, when you think of pollution to floating habitat, an oil spill is probably your first thought.  When oil comes into contact with *Sargassum* it gets caught up in the floating mats and impacts both the *Sargassum* itself, and the species associated with it.  The direct impacts of oil to Sargassum include restricting growth and sinking.  If the *Sargassum* dies from prolonged oil exposure and sinks it can bring associated oil to the bottom of the ocean where it can negatively impact animals there also. Oil vapors inhaled by species on the surface (like dolphins, turtles, and birds) can be toxic, as can contact with the oil directly, whether it be dissolved or as a surface slick, which would impact animals beneath the surface as well (like fish and crabs). For more information on oil spills and *Sargassum* check out this post from <a href="https://response.restoration.noaa.gov/about/media/what-happens-when-oil-spills-meet-massive-islands-seaweed.html" target = "_blank">NOAA's Office of Response and Restoration</a>.
 
 ![Illustration of the potential impacts of an oil spill on *Sargassum* and associated marine life in the water column. Image: NOAA Response and Restoration](/img/sargassumOil.jpg)
 
@@ -109,9 +111,11 @@ Laffoley, D.d'A., H. S. J. Roe, M. V. Angel, J. Ardron, N. R. Bates, I. L. Boyd,
 
 Schuyler, Q. A., C. Wilcox, K. A. Townsed, K.R. Wedemeyer-Strombel, G. Balazs, E. van Sebille and B. D. Hardesty. Risk analysis reveals global hotspots for marine debris ingestion by sea turtles. Global Change Biology, 22(2): 567-576.
 
-Simmons, C. M. and S. T. Szedlmayer. 2010. Recruitment of age-0 gray triggerfish to benthic structured habitat in the northern Gulf of Mexico. Transactions of the American Fisheries Society, 140(1): 14-20.
+Simmons, C. M. and S. T. Szedlmayer. 2011. Recruitment of age-0 gray triggerfish to benthic structured habitat in the northern Gulf of Mexico. Transactions of the American Fisheries Society, 140(1): 14-20.
 
 Stoner, A. W. 1983. Pelagic Sargassum: Evidence for a major decrease in biomass. Deep Sea Research, 30: 469-474.
+
+Wells, R. J. and J. R. Rooker. Spatial and temporal patterns of habitat use by fishes associated with *Sargassum* mats in the northwestern Gulf of Mexico. Bulletin of Marine Science, 74(1): 81-99.
 
 
 
