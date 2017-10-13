@@ -11,6 +11,96 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Mangroves</title>
+      <link>/post/mangroves/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mangroves/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/fullscreen/leaflet.fullscreen.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/fullscreen/Leaflet.fullscreen.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/leaflet-minimap/Control.MiniMap.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-minimap/Control.MiniMap.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/leaflet-minimap/Minimap-binding.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;what-are-they&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;What are they?&lt;/h3&gt;
+&lt;p&gt;Mangroves are trees and shrubs that live in salty water. Not many trees can do this, which is readily apparent in some areas of coastal Louisiana, where saltwater intrusion has killed plants that aren’t well-equipped to live in such a hostile environment.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/dead_snags-large.png&#34; alt=&#34;Trees killed by saltwater intrusion. Image: Daniel Strain (Maryland Sea Grant)&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Trees killed by saltwater intrusion. Image: Daniel Strain (Maryland Sea Grant)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;When people imagine mangroves, they usually are thinking of red mangroves. These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are. Prop roots help provide stability to red mangroves and supply oxygen to underground roots.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/redmangroves.jpg&#34; alt=&#34;Red Mangroves. Image: NOAA Fisheries&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Red Mangroves. Image: NOAA Fisheries&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas. These are black mangroves, white mangroves, and buttonwood.&lt;/p&gt;
+&lt;p&gt;Black mangroves live in areas higher above sea level than red mangroves. They have horizontal roots with projections called pneumatophores and their roots are exposed to air when tides are out. These mangroves are the type showing up in some of the northern Gulf states.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/blackmangroves.jpg&#34; alt=&#34;Black Mangroves. Image: Collier County Sea Grant&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Black Mangroves. Image: Collier County Sea Grant&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;White mangroves and buttonwood live in more upland areas than either the black or red mangroves. They are adapted to tolerate salty soil, but are rarely exposed to submersion in water, because of this, they do not have aerial roots like the other two species. In general, they look very similar to a shrub you might have in your yard.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/whitemangroves.png&#34; alt=&#34;White Mangroves. Image: Miami-Dade Sea Grant&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;White Mangroves. Image: Miami-Dade Sea Grant&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;where-are-they&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Where are they?&lt;/h3&gt;
+&lt;p&gt;Mangroves live at the transition from sea to land, and are an integral component of estuarine ecosystems, but if you live in Alabama you probably haven’t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys). Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states. However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They’ve also started popping up on the Mississippi Barrier islands (&lt;a href=&#34;http://goms.disl.org/assets/goms_disl/uploads/toc/2011_2030/goms-31-01-79-82.pdf&#34; target=&#34;_blank&#34;&gt;Scheffel et al. 2013&lt;/a&gt;), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (&lt;a href=&#34;https://repositories.tdl.org/tamug-ir/handle/1969.3/19073&#34; target=&#34;_blank&#34;&gt;Sherrod and McMillan 1985&lt;/a&gt;; &lt;a href=&#34;https://link.springer.com/article/10.1007/s12237-010-9358-2&#34; target=&#34;_blank&#34;&gt;Pickens and Hester 2010&lt;/a&gt;; &lt;a href=&#34;http://www.pnas.org/content/111/2/723.abstract&#34; target=&#34;_blank&#34;&gt;Cavanaugh et al. 2014&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
+&lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;leaflet html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}},&#34;fullscreenControl&#34;:{&#34;position&#34;:&#34;topleft&#34;,&#34;pseudoFullscreen&#34;:false}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://portal.gulfcouncil.org/arcgis/rest/services/mangrove/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;minZoom&#34;:0,&#34;maxZoom&#34;:18,&#34;maxNativeZoom&#34;:null,&#34;tileSize&#34;:256,&#34;subdomains&#34;:&#34;abc&#34;,&#34;errorTileUrl&#34;:&#34;&#34;,&#34;tms&#34;:false,&#34;continuousWorld&#34;:false,&#34;noWrap&#34;:false,&#34;zoomOffset&#34;:0,&#34;zoomReverse&#34;:false,&#34;opacity&#34;:1,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false,&#34;attribution&#34;:&#34;Commission for Environmental Cooperation | Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN&#34;}]},{&#34;method&#34;:&#34;addLegend&#34;,&#34;args&#34;:[{&#34;colors&#34;:[&#34;#e61eb1&#34;],&#34;labels&#34;:[&#34;Mangroves&#34;],&#34;na_color&#34;:null,&#34;na_label&#34;:&#34;NA&#34;,&#34;opacity&#34;:1,&#34;position&#34;:&#34;bottomleft&#34;,&#34;type&#34;:&#34;unknown&#34;,&#34;title&#34;:null,&#34;extra&#34;:null,&#34;layerId&#34;:null,&#34;className&#34;:&#34;info legend&#34;}]},{&#34;method&#34;:&#34;addMiniMap&#34;,&#34;args&#34;:[null,null,&#34;bottomleft&#34;,100,100,19,19,-5,false,false,false,false,false,false,{&#34;color&#34;:&#34;#ff7800&#34;,&#34;weight&#34;:1,&#34;clickable&#34;:false},{&#34;color&#34;:&#34;#000000&#34;,&#34;weight&#34;:1,&#34;clickable&#34;:false,&#34;opacity&#34;:0,&#34;fillOpacity&#34;:0},{&#34;hideText&#34;:&#34;Hide MiniMap&#34;,&#34;showText&#34;:&#34;Show MiniMap&#34;},[]]}],&#34;setView&#34;:[[25.9,-82.1],7,[]]},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;div id=&#34;these-data-were-collected-and-synthesized-by-the-commission-for-environmental-cooperation.-more-information-regarding-how-the-data-was-gathered-is-available-in-the-report-north-americas-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-distribution-and-carbon-sinks.-the-report-is-available-here&#34; class=&#34;section level6&#34;&gt;
+&lt;h6&gt;* These data were collected and synthesized by the Commission for Environmental Cooperation. More information regarding how the data was gathered is available in the report, “North America’s Blue Carbon: Assessing Seagrass, Salt Marsh and Mangrove Distribution and Carbon Sinks”. The report is available &lt;a href=&#34;http://www3.cec.org/islandora/en/item/11664-north-america-s-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-en.pdf&#34; target=&#34;_blank&#34;&gt; here &lt;/a&gt;&lt;/h6&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;role-of-mangoves-in-fishery-ecosystems&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Role of Mangoves in Fishery Ecosystems&lt;/h3&gt;
+&lt;p&gt;The first, and most obvious, role of mangroves in fisheries ecosystems are as nursery areas. Many coral reef associated fish, and some species managed by the Gulf of Mexico Fishery Management Council, start their lives in the mangroves. The prop roots of red mangroves provide protection and feeding habitat for goliath grouper, red grouper, gag, cobia, gray snapper, red drum, and king and Spanish mackerel, to name a few.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/fishMangrovesNOAA2.jpg&#34; alt=&#34;Fish swimming in mangrove roots. Image: NOAA&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Fish swimming in mangrove roots. Image: NOAA&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Another function of mangroves, and most estuarine vegetation, is in carbon sequestration, which is just a fancy way of saying that mangroves remove CO2 from the atmosphere and store it in their tissues and soil surround their roots &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/conl.12060/full&#34; target=&#34;_blank&#34;&gt;Hutchinson et al. 2014&lt;/a&gt;) . Maybe you can see where this is going, but less CO2 in the atmosphere means less CO2 available to contribute to ocean acidification and, unless you’ve been living under a rock, you’ve probably heard that ocean acidification is a large contributor to coral bleaching (&lt;a href=&#34;http://www.pnas.org/content/105/45/17442.abstract&#34; target=&#34;_blank&#34;&gt;Anthony et al. 2008&lt;/a&gt;; &lt;a href=&#34;http://science.sciencemag.org/content/318/5857/1737.full&#34; target=&#34;_blank&#34;&gt;Hoegh-Guldberg et al. 2007&lt;/a&gt;). Unfortunately, the removal or deforestation of mangroves can release that CO2 right back into the atmosphere.&lt;/p&gt;
+&lt;p&gt;Another interesting and relatively recent (2014) discovery is that mangrove habitats may provide some coral species refuge in an increasingly hostile ocean environment. In Hurricane Hole, St. John, USVI, researchers surveyed coral communities growing near mangrove habitats, and compared the prevalence of bleaching in corals that were shaded by mangroves to those that were not. &lt;em&gt;Colpophyllia natans&lt;/em&gt; and &lt;em&gt;Diploria labyrinthiformis&lt;/em&gt; colonies were the most abundant reef building corals in Hurricane Hole and these were doing well despite declines in abundance on St. John reefs. None of the shaded colonies of &lt;em&gt;C. natans&lt;/em&gt; were bleached, compared to 10.5% of unshaded colonies, and 34.2% of &lt;em&gt;D. labyrinthiformis&lt;/em&gt; shaded colonies were bleached, compared to 66.1% of unshaded colonies (&lt;a href=&#34;https://www.biogeosciences.net/11/4321/2014/&#34; target=&#34;_blank&#34;&gt;Yates et al. 2014&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Not only do the mangroves provide shade, which reduces coral exposure to photosynthetically active radiation, but also buffer declines in water pH (&lt;a href=&#34;https://www.biogeosciences.net/11/4321/2014/&#34; target=&#34;_blank&#34;&gt;Yates et al. 2014&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;threats-to-mangroves&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Threats to Mangroves&lt;/h3&gt;
+&lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronounced. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforementioned coastal development are all threats facing mangroves (&lt;a href=&#34;https://nepis.epa.gov/Exe/ZyPDF.cgi/20001PIB.PDF?Dockey=20001PIB.PDF&#34; target=&#34;_blank&#34;&gt;Duke and Kruczynski 1992&lt;/a&gt;; &lt;a href=&#34;http://gulfcouncil.org/wp-content/uploads/March-2004-Final-EFH-EIS.pdf&#34; target=&#34;_blank&#34;&gt;GMFMC 2004&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil coats their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (&lt;a href=&#34;https://nepis.epa.gov/Exe/ZyPDF.cgi/2000ZT9M.PDF?Dockey=2000ZT9M.PDF&#34; target=&#34;_blank&#34;&gt;Teas 1976&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;p&gt;Anthony, K. R. N., D. I. Kline, G. Diaz-Pulido, S. Dove, and O. Hoegh-Guldberg. 2008. Ocean acidificiation causes bleaching and productivity loss in coral reef builders. PNAS 105(45): 17442-17446.&lt;/p&gt;
+&lt;p&gt;Cavanaugh, K. C., J. R. Kellner, A. J. Forde, D. S. Gruner, J. D. Parker, W. Rodriguez, and I. C. Feller. 2014. Poleward expansion of mangroves is a threshold response to decreased frequency of extreme cold events. Proceedings of the National Academy of Sciences 111(2):723-727.&lt;/p&gt;
+&lt;p&gt;Duke, T. and W. L. Kruczynski. 1992. The status and trends of emergent and submerged vegetated habitats of the Gulf of Mexico coastal waters, USA. EPA 800-R-92-003. Stennis Space Center, Mississippi. 161 pp.&lt;/p&gt;
+&lt;p&gt;GMFMC. 2004. Final Environmental Impact Statement for the Generic Essential Fish Habitat Amendment to the following fishery management plans of the Gulf of Mexico (GOM): Shrimp Fishery of the Gulf of Mexico, Red Drum Fishery of the Gulf of Mexico, Reef Fish Fishery of the Gulf of Mexico, Stone Crab Fishery of the Gulf of Mexico, Coral And Coral Reef Fishery of the Gulf Of Mexico, Spiny Lobster Fishery of the Gulf of Mexico and South Atlantic, and the Coastal Migratory Pelagic Resources of the Gulf of Mexico And South Atlantic. Gulf of Mexico Fishery Management Council, Tampa, Florida, 682 pp.&lt;/p&gt;
+&lt;p&gt;Hoegh-Guldberg, O., P. J. Mumby, A. J. Hooten, R. S. Steneck, P. Greenfield, E. Gomez, C. D. Harvell, P. F. Sale, A. J. Edwards, K. Caldeira, N. Knowlton, C. M. Eakin, R. Iglesias-Prieto, N. Muthiga, R. H. Bradbury, A. Dubi, and M. E. Hatziolos. 2007. Coral reefs under rapid climate change and ocean acidification. Science 318: 1737-1742.&lt;/p&gt;
+&lt;p&gt;Hutchinson, J., A. Manica, R. Swetnam, A. Balmford, and M. Spalding. 2014. Predicting Global Patterns in Mangrove Forest Biomass. Conservation Letters 7(3): 233-240.&lt;/p&gt;
+&lt;p&gt;Pickens, C. N., and M. W. Hester. 2011. Temperature tolerance of early life history stages of black mangrove &lt;em&gt;Avicennia germinans&lt;/em&gt;: Implications for range expansion. Estuaries and Coasts 34:824-830.&lt;/p&gt;
+&lt;p&gt;Scheffel, W. A., K. L. Heck Jr., J. Cebrian, M. Johnson, and D. Byron. 2013. Range expansion of black mangroves (&lt;em&gt;Avicennia germinans&lt;/em&gt;) to the Mississippi Barrier Islands. Gulf of Mexico Science 31(1/2): 79-82.&lt;/p&gt;
+&lt;p&gt;Sherrod, C. L. and C. McMillan. 1985. The distributional history and ecology of mangrove vegetation along the northern Gulf of Mexico coastal region. Contributions in Marine Science 28:129-140.&lt;/p&gt;
+&lt;p&gt;Teas, H. J. 1976. Herbicide toxicity in mangroves. EPA-600/3-76-004. Environmental Research Laboratory, Gulf Breeze, Florida. 42 pp.&lt;/p&gt;
+&lt;p&gt;Yates, K. K., C. S. Rogers, J. J. Herlan, G. R. Brooks, N. A. Smiley, and R. A. Larson. 2014. Diverse coral communities in mangrove habitats suggest a novel refuge from climate change. Biogeosciences 11: 4321-4337.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sargassum</title>
       <link>/post/sargassum/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
@@ -136,7 +226,7 @@
 &lt;img src=&#34;/img/seagrassFlounder2.jpg&#34; alt=&#34;Seagrass. Image: NOAA Fisheries&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Seagrass. Image: NOAA Fisheries&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;There are about 52 species of seagrass worldwide, growing as far north as the Arctic Circle, but around the Gulf Coast there are six. The distribution of the difference species varies based on their preferred range of salinity, turbidity, and light requirements, but I’ll get into that more in the next section.&lt;/p&gt;
+&lt;p&gt;There are about 52 species of seagrass worldwide, growing as far north as the Arctic Circle, but around the Gulf Coast there are six. The distribution of the different species varies based on their preferred range of salinity, turbidity, and light requirements, but I’ll get into that more in the next section.&lt;/p&gt;
 &lt;p&gt;Most seagrasses produce asexually and sexually. Seagrass asexual reproduction is clonal, meaning that many of the plants in a seagrass meadow may appear to be individuals, but are actually a part of the same plant, with a network of underground rhizomes - which are like underground stems - supporting individual shoots. These shoots will all have the same genetic code too! This kind of growth is exhibited by terrestrial species such as aspen trees and blueberry bushes. Sexual reproduction occurs via pollination, but as you might imagine, there is a noticeable lack of bees under the sea, so pollination is aided by water movement; small invertebrates can help with this process as well. Seagrass seeds can be spread by water flow, but also by animals, such as fish and turtles, eating and excreting them.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/seaturtleNOAA.jpg&#34; alt=&#34;Turtle feeding on seagrass. Image: NOAA&#34; /&gt;
@@ -165,7 +255,7 @@
 &lt;div id=&#34;role-of-seagrasses-in-fishery-ecosystems&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Role of Seagrasses in Fishery Ecosystems&lt;/h3&gt;
 &lt;p&gt;Seagrasses contribute to fishery ecosystems in crucial ways, one of which is quite similar to grass planted on a hillside, they prevent erosion. The complex structure of seagrasses - with their leaves, roots and rhizomes - reduce erosion, improve water clarity, and reduce the impact of waves on shore. Seagrasses also support macroalgae, but their relationship can be tenuous; if the nutrient concentrations in an estuary are too high, macroalgal blooms can smother seagrass.&lt;/p&gt;
-&lt;p&gt;Seagrasses also contribute to ecosystems via water quality improvement. The root system stabilizes sediments and slows water flow, reducing the likelihood that sediment will be dispersed in the water column. Estuarine environments can be heavily influenced by runoff, and seagrasses clear up the water by absorbing nutrients from runoff, but in some regions, seagrass can do the exact opposite. In nutrient poor environments, seagrasses can release nutrients - taken up from the soil - into the water through their leaves.&lt;/p&gt;
+&lt;p&gt;Seagrasses improve water quality for ecosystems. The root system stabilizes sediments and slows water flow, reducing the likelihood that sediment will be dispersed in the water column. Estuarine environments can be heavily influenced by runoff, and seagrasses clear up the water by absorbing nutrients from runoff, but in some regions, seagrass can do the exact opposite. In nutrient poor environments, seagrasses can release nutrients - taken up from the soil - into the water through their leaves.&lt;/p&gt;
 &lt;p&gt;Seagrasses directly impact fisheries in the form of habitat and feeding. Seagrass beds provide shelter for small invertebrates and small or juvenile fish. This protection attracts larger fish and sharks which feed on the invertebrates and smaller fish.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/turtleGrassSnails.jpg&#34; alt=&#34;Snails on turtle grass. Image: NOAA Habitat&#34; /&gt;
@@ -177,7 +267,7 @@
 &lt;div id=&#34;threats-to-seagrasses&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Threats to Seagrasses&lt;/h3&gt;
 &lt;p&gt;Seagrass coverage has declined in almost all areas of the Gulf since the 1950s; this stems from both natural and anthropogenic (human created) causes. Hurricanes, and the heavy wave action associated with them, can kill a significant proportion of seagrass beds, as was the case with Hurricane Camille which destroyed approximately 58% of the seagrasses in Mississippi Sound (Eleuterius and Miller 1976). Floods or droughts affect the amount of freshwater in estuaries, if the water becomes too salty or too fresh it can kill seagrass; as can increased sediment load or water turbidity. But these natural disturbances are much less harmful than the human activities associated with seagrass loss.&lt;/p&gt;
-&lt;p&gt;Human activities causing seagrass loss include runoff which increases due to urban development, dredging and filling, and boat scaring. Runoff is problematic because of the pollution and nutrients entering the waterways. These cause turbidity and increased algal growth, which in turn reduce light penetration and eventual seagrass death. Coastal development and marine navigation require dredging and filling, which can cause physical destruction or burying of seagrass beds. Boat scaring is caused by the propeller on a boat, and is generally accidental, taking a shortcut across a channel or straying into a shallow area can result in prop scaring. The consequences of seagrass loss are numerous and can have impacts on the ecology and economy of an area.&lt;/p&gt;
+&lt;p&gt;Human activities that cause seagrass loss include runoff from urban development, dredging and filling, and boat scaring. Runoff is problematic because of the pollution and nutrients entering the waterways; this is increasing with increasing coastal development. These cause turbidity and increased algal growth, which in turn reduces light penetration and causes eventual seagrass death. Coastal development and marine navigation require dredging and filling, which causes physical destruction or burying of seagrass beds. Boat scaring is caused by the propeller on a boat and is generally accidental, taking a shortcut across a channel or straying into a shallow area can result in prop scaring. The consequences of seagrass loss are numerous and can have impacts on the ecology and economy of an area.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/propscarDamageNOAA.jpg&#34; alt=&#34;Prop scar damage. Image: NOAA&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Prop scar damage. Image: NOAA&lt;/p&gt;
@@ -188,96 +278,6 @@
 &lt;p&gt;Cox, C., J. Hunt, W.G. Lyons, and G.E. Davis. 1997. Nocturnal foraging of the Caribbean lobster(&lt;em&gt;Panularis argus&lt;/em&gt;) on offshore reefs of Florida, USA. Marine and Freshwater Research 48:671-679.&lt;/p&gt;
 &lt;p&gt;Eleuterius, L.N. and G.J. Miller. 1976. Observations on seagrass and seaweeds in Mississippi Sound since Hurricant Camille. Journal of Mississippi Academy of Science 21:58-63.&lt;/p&gt;
 &lt;p&gt;Valentine, J.F. and J.E. Duffy. 2006. The central role of grazing in seagrass ecology. Pages 463-501 &lt;em&gt;in&lt;/em&gt; T. Larkum, R. Orth, and C. Duarte, eds. Seagrasses: biolgy, ecology, and conservation. Springer, Dordrecht, Netherlands.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mangroves</title>
-      <link>/post/mangroves/</link>
-      <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/mangroves/</guid>
-      <description>&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;link href=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-label/leaflet.label.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/fullscreen/leaflet.fullscreen.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/fullscreen/Leaflet.fullscreen.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/leaflet-minimap/Control.MiniMap.min.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-minimap/Control.MiniMap.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/leaflet-minimap/Minimap-binding.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;what-are-they&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;What are they?&lt;/h3&gt;
-&lt;p&gt;Mangroves are trees and shrubs that live in salty water. Not many trees can do this, which is readily apparent in some areas of coastal Louisiana, where saltwater intrusion has killed plants that aren’t well-equipped to live in such a hostile environment.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/dead_snags-large.png&#34; alt=&#34;Trees killed by saltwater intrusion. Image: Daniel Strain (Maryland Sea Grant)&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Trees killed by saltwater intrusion. Image: Daniel Strain (Maryland Sea Grant)&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;When people imagine mangroves, they usually are thinking of red mangroves. These grow along the edge of the shoreline and have prop roots, which grow from the trunk down into the water and are exposed rather than covered in soil the way most plant roots are. Prop roots help provide stability to red mangroves and supply oxygen to underground roots.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/redmangroves.jpg&#34; alt=&#34;Red Mangroves. Image: NOAA Fisheries&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Red Mangroves. Image: NOAA Fisheries&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Besides red mangroves, there are 80 other described species, but only three others that are prevalent into Gulf coastal areas. These are black mangroves, white mangroves, and buttonwood.&lt;/p&gt;
-&lt;p&gt;Black mangroves live in areas higher above sea level than red mangroves. They have horizontal roots with projections called pneumatophores and their roots are exposed to air when tides are out. These mangroves are the type showing up in some of the northern Gulf states.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/blackmangroves.jpg&#34; alt=&#34;Black Mangroves. Image: Collier County Sea Grant&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Black Mangroves. Image: Collier County Sea Grant&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;White mangroves and buttonwood live in more upland areas than either the black or red mangroves. They are adapted to tolerate salty soil, but are rarely exposed to submersion in water, because of this, they do not have aerial roots like the other two species. In general, they look very similar to a shrub you might have in your yard.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/whitemangroves.png&#34; alt=&#34;White Mangroves. Image: Miami-Dade Sea Grant&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;White Mangroves. Image: Miami-Dade Sea Grant&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;where-are-they&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Where are they?&lt;/h3&gt;
-&lt;p&gt;Mangroves live at the transition from sea to land, and are an integral component of estuarine ecosystems, but if you live in Alabama you probably haven’t seen any there. They are usually found in areas that have regular tidal flow, some freshwater, and low to moderate wave energy (think channels in southern Florida and the Florida Keys). Their distribution is limited by freezing temperatures, which is why they are uncommon in the northern Gulf states. However, black mangroves, which are more cold tolerant, can be found on the Chandeleur Islands off Louisiana. They’ve also started popping up on the Mississippi Barrier islands (&lt;a href=&#34;http://goms.disl.org/assets/goms_disl/uploads/toc/2011_2030/goms-31-01-79-82.pdf&#34; target=&#34;_blank&#34;&gt;Scheffel et al. 2013&lt;/a&gt;), and scientists suspect that as the global climate continues to warm, black mangroves will continue their spread north in the Gulf of Mexico (&lt;a href=&#34;https://repositories.tdl.org/tamug-ir/handle/1969.3/19073&#34; target=&#34;_blank&#34;&gt;Sherrod and McMillan 1985&lt;/a&gt;; &lt;a href=&#34;https://link.springer.com/article/10.1007/s12237-010-9358-2&#34; target=&#34;_blank&#34;&gt;Pickens and Hester 2010&lt;/a&gt;; &lt;a href=&#34;http://www.pnas.org/content/111/2/723.abstract&#34; target=&#34;_blank&#34;&gt;Cavanaugh et al. 2014&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;For now though, mangroves are most prevalent in central and southern Florida and southern Texas.&lt;/p&gt;
-&lt;p&gt;To see if there are any mangroves near you, check on the interactive map below.&lt;/p&gt;
-&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;leaflet html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}},&#34;fullscreenControl&#34;:{&#34;position&#34;:&#34;topleft&#34;,&#34;pseudoFullscreen&#34;:false}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/Mapserver/tile/{z}/{y}/{x}&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:true,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false}]},{&#34;method&#34;:&#34;addTiles&#34;,&#34;args&#34;:[&#34;http://portal.gulfcouncil.org/arcgis/rest/services/mangrove/MapServer/tile/{z}/{y}/{x}&#34;,null,null,{&#34;minZoom&#34;:0,&#34;maxZoom&#34;:18,&#34;maxNativeZoom&#34;:null,&#34;tileSize&#34;:256,&#34;subdomains&#34;:&#34;abc&#34;,&#34;errorTileUrl&#34;:&#34;&#34;,&#34;tms&#34;:false,&#34;continuousWorld&#34;:false,&#34;noWrap&#34;:false,&#34;zoomOffset&#34;:0,&#34;zoomReverse&#34;:false,&#34;opacity&#34;:1,&#34;zIndex&#34;:null,&#34;unloadInvisibleTiles&#34;:null,&#34;updateWhenIdle&#34;:null,&#34;detectRetina&#34;:false,&#34;reuseTiles&#34;:false,&#34;attribution&#34;:&#34;Commission for Environmental Cooperation | Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN&#34;}]},{&#34;method&#34;:&#34;addLegend&#34;,&#34;args&#34;:[{&#34;colors&#34;:[&#34;#e61eb1&#34;],&#34;labels&#34;:[&#34;Mangroves&#34;],&#34;na_color&#34;:null,&#34;na_label&#34;:&#34;NA&#34;,&#34;opacity&#34;:1,&#34;position&#34;:&#34;bottomleft&#34;,&#34;type&#34;:&#34;unknown&#34;,&#34;title&#34;:null,&#34;extra&#34;:null,&#34;layerId&#34;:null,&#34;className&#34;:&#34;info legend&#34;}]},{&#34;method&#34;:&#34;addMiniMap&#34;,&#34;args&#34;:[null,null,&#34;bottomleft&#34;,100,100,19,19,-5,false,false,false,false,false,false,{&#34;color&#34;:&#34;#ff7800&#34;,&#34;weight&#34;:1,&#34;clickable&#34;:false},{&#34;color&#34;:&#34;#000000&#34;,&#34;weight&#34;:1,&#34;clickable&#34;:false,&#34;opacity&#34;:0,&#34;fillOpacity&#34;:0},{&#34;hideText&#34;:&#34;Hide MiniMap&#34;,&#34;showText&#34;:&#34;Show MiniMap&#34;},[]]}],&#34;setView&#34;:[[25.9,-82.1],7,[]]},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
-&lt;div id=&#34;these-data-were-collected-and-synthesized-by-the-commission-for-environmental-cooperation.-more-information-regarding-how-the-data-was-gathered-is-available-in-the-report-north-americas-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-distribution-and-carbon-sinks.-the-report-is-available-here&#34; class=&#34;section level6&#34;&gt;
-&lt;h6&gt;* These data were collected and synthesized by the Commission for Environmental Cooperation. More information regarding how the data was gathered is available in the report, “North America’s Blue Carbon: Assessing Seagrass, Salt Marsh and Mangrove Distribution and Carbon Sinks”. The report is available &lt;a href=&#34;http://www3.cec.org/islandora/en/item/11664-north-america-s-blue-carbon-assessing-seagrass-salt-marsh-and-mangrove-en.pdf&#34; target=&#34;_blank&#34;&gt; here &lt;/a&gt;&lt;/h6&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;role-of-mangoves-in-fishery-ecosystems&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Role of Mangoves in Fishery Ecosystems&lt;/h3&gt;
-&lt;p&gt;The first, and most obvious, role of mangroves in fisheries ecosystems are as nursery areas. Many coral reef associated fish, and some species managed by the Gulf of Mexico Fishery Management Council, start their lives in the mangroves. The prop roots of red mangroves provide protection and feeding habitat for goliath grouper, red grouper, gag, cobia, gray snapper, red drum, and king and Spanish mackerel, to name a few.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/fishMangrovesNOAA2.jpg&#34; alt=&#34;Fish swimming in mangrove roots. Image: NOAA&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Fish swimming in mangrove roots. Image: NOAA&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Another function of mangroves, and most estuarine vegetation, is in carbon sequestration, which is just a fancy way of saying that mangroves remove CO2 from the atmosphere and store it in their tissues and soil surround their roots &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/conl.12060/full&#34; target=&#34;_blank&#34;&gt;Hutchinson et al. 2014&lt;/a&gt;) . Maybe you can see where this is going, but less CO2 in the atmosphere means less CO2 available to contribute to ocean acidification and, unless you’ve been living under a rock, you’ve probably heard that ocean acidification is a large contributor to coral bleaching (&lt;a href=&#34;http://www.pnas.org/content/105/45/17442.abstract&#34; target=&#34;_blank&#34;&gt;Anthony et al. 2008&lt;/a&gt;; &lt;a href=&#34;http://science.sciencemag.org/content/318/5857/1737.full&#34; target=&#34;_blank&#34;&gt;Hoegh-Guldberg et al. 2007&lt;/a&gt;). Unfortunately, the removal or deforestation of mangroves can release that CO2 right back into the atmosphere.&lt;/p&gt;
-&lt;p&gt;Another interesting and relatively recent (2014) discovery is that mangrove habitats may provide some coral species refuge in an increasingly hostile ocean environment. In Hurricane Hole, St. John, USVI, researchers surveyed coral communities growing near mangrove habitats, and compared the prevalence of bleaching in corals that were shaded by mangroves to those that were not. &lt;em&gt;Colpophyllia natans&lt;/em&gt; and &lt;em&gt;Diploria labyrinthiformis&lt;/em&gt; colonies were the most abundant reef building corals in Hurricane Hole and these were doing well despite declines in abundance on St. John reefs. None of the shaded colonies of &lt;em&gt;C. natans&lt;/em&gt; were bleached, compared to 10.5% of unshaded colonies, and 34.2% of &lt;em&gt;D. labyrinthiformis&lt;/em&gt; shaded colonies were bleached, compared to 66.1% of unshaded colonies (&lt;a href=&#34;https://www.biogeosciences.net/11/4321/2014/&#34; target=&#34;_blank&#34;&gt;Yates et al. 2014&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Not only do the mangroves provide shade, which reduces coral exposure to photosynthetically active radiation, but also buffer declines in water pH (&lt;a href=&#34;https://www.biogeosciences.net/11/4321/2014/&#34; target=&#34;_blank&#34;&gt;Yates et al. 2014&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;These mangrove habitats may reduce stress and increase survivabily for corals that are threatened by rising water temperatures and increased ocean acidification.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;threats-to-mangroves&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Threats to Mangroves&lt;/h3&gt;
-&lt;p&gt;Most threats to mangroves are human-caused, and because of the locations where they reside, these threats are particularly pronounced. Coastal areas are prime real estate, and as such, are subject to heavy development pressure. Impounding and ditching for mosquito control, reductions in freshwater inflows, clearing, and dredge and fill activities associated with navigation and the aforementioned coastal development are all threats facing mangroves (&lt;a href=&#34;https://nepis.epa.gov/Exe/ZyPDF.cgi/20001PIB.PDF?Dockey=20001PIB.PDF&#34; target=&#34;_blank&#34;&gt;Duke and Kruczynski 1992&lt;/a&gt;; &lt;a href=&#34;http://gulfcouncil.org/wp-content/uploads/March-2004-Final-EFH-EIS.pdf&#34; target=&#34;_blank&#34;&gt;GMFMC 2004&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Pollution, specifically oil, fertilizers, and pesticides/herbicides can negatively impact mangroves. Oil coats their roots which limits oxygen transport, herbicides have been shown to cause defoliation and may be lethal to seedlings (&lt;a href=&#34;https://nepis.epa.gov/Exe/ZyPDF.cgi/2000ZT9M.PDF?Dockey=2000ZT9M.PDF&#34; target=&#34;_blank&#34;&gt;Teas 1976&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;References:&lt;/p&gt;
-&lt;p&gt;Anthony, K. R. N., D. I. Kline, G. Diaz-Pulido, S. Dove, and O. Hoegh-Guldberg. 2008. Ocean acidificiation causes bleaching and productivity loss in coral reef builders. PNAS 105(45): 17442-17446.&lt;/p&gt;
-&lt;p&gt;Cavanaugh, K. C., J. R. Kellner, A. J. Forde, D. S. Gruner, J. D. Parker, W. Rodriguez, and I. C. Feller. 2014. Poleward expansion of mangroves is a threshold response to decreased frequency of extreme cold events. Proceedings of the National Academy of Sciences 111(2):723-727.&lt;/p&gt;
-&lt;p&gt;Duke, T. and W. L. Kruczynski. 1992. The status and trends of emergent and submerged vegetated habitats of the Gulf of Mexico coastal waters, USA. EPA 800-R-92-003. Stennis Space Center, Mississippi. 161 pp.&lt;/p&gt;
-&lt;p&gt;GMFMC. 2004. Final Environmental Impact Statement for the Generic Essential Fish Habitat Amendment to the following fishery management plans of the Gulf of Mexico (GOM): Shrimp Fishery of the Gulf of Mexico, Red Drum Fishery of the Gulf of Mexico, Reef Fish Fishery of the Gulf of Mexico, Stone Crab Fishery of the Gulf of Mexico, Coral And Coral Reef Fishery of the Gulf Of Mexico, Spiny Lobster Fishery of the Gulf of Mexico and South Atlantic, and the Coastal Migratory Pelagic Resources of the Gulf of Mexico And South Atlantic. Gulf of Mexico Fishery Management Council, Tampa, Florida, 682 pp.&lt;/p&gt;
-&lt;p&gt;Hoegh-Guldberg, O., P. J. Mumby, A. J. Hooten, R. S. Steneck, P. Greenfield, E. Gomez, C. D. Harvell, P. F. Sale, A. J. Edwards, K. Caldeira, N. Knowlton, C. M. Eakin, R. Iglesias-Prieto, N. Muthiga, R. H. Bradbury, A. Dubi, and M. E. Hatziolos. 2007. Coral reefs under rapid climate change and ocean acidification. Science 318: 1737-1742.&lt;/p&gt;
-&lt;p&gt;Hutchinson, J., A. Manica, R. Swetnam, A. Balmford, and M. Spalding. 2014. Predicting Global Patterns in Mangrove Forest Biomass. Conservation Letters 7(3): 233-240.&lt;/p&gt;
-&lt;p&gt;Pickens, C. N., and M. W. Hester. 2011. Temperature tolerance of early life history stages of black mangrove &lt;em&gt;Avicennia germinans&lt;/em&gt;: Implications for range expansion. Estuaries and Coasts 34:824-830.&lt;/p&gt;
-&lt;p&gt;Scheffel, W. A., K. L. Heck Jr., J. Cebrian, M. Johnson, and D. Byron. 2013. Range expansion of black mangroves (&lt;em&gt;Avicennia germinans&lt;/em&gt;) to the Mississippi Barrier Islands. Gulf of Mexico Science 31(1/2): 79-82.&lt;/p&gt;
-&lt;p&gt;Sherrod, C. L. and C. McMillan. 1985. The distributional history and ecology of mangrove vegetation along the northern Gulf of Mexico coastal region. Contributions in Marine Science 28:129-140.&lt;/p&gt;
-&lt;p&gt;Teas, H. J. 1976. Herbicide toxicity in mangroves. EPA-600/3-76-004. Environmental Research Laboratory, Gulf Breeze, Florida. 42 pp.&lt;/p&gt;
-&lt;p&gt;Yates, K. K., C. S. Rogers, J. J. Herlan, G. R. Brooks, N. A. Smiley, and R. A. Larson. 2014. Diverse coral communities in mangrove habitats suggest a novel refuge from climate change. Biogeosciences 11: 4321-4337.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
